@@ -19,22 +19,30 @@ sys.path.insert(0, os.path.join(UE_ROOT, "Engine/Plugins/Experimental/PythonScri
 import remote_execution as rex  # noqa: E402
 
 PROJECT = "Krom"
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Krom"))
 
 
 PROBE = "__import__('unreal').get_editor_subsystem(__import__('unreal').UnrealEditorSubsystem) is not None"
 
 
+def _same_root(node):
+    root = (node.get("project_root") or "").replace("\\", "/").rstrip("/").lower()
+    return not root or root == PROJECT_ROOT.replace("\\", "/").rstrip("/").lower()
+
+
 def find_node(remote, timeout_s):
-    """Ждёт, пока редактор с нашим проектом ответит на multicast ping. Если проект открыт в нескольких процессах
-    (редактор и рендер MRQ отдельным процессом UnrealEditor-Cmd -game, D-042: Remote Execution включена и там), у
-    каждого спрашивает PROBE — есть ли подсистемы редактора — и берёт редактор (2026-09-27: команда попала в рендер)."""
+    """Ждёт, пока редактор с нашим проектом ответит на multicast ping. Берёт процесс того же клона (project_root —
+    папка Krom рядом с этим скриптом: клон в другой папке, например D:\\PskovKrom-test, говорит со своим редактором).
+    Если проект открыт в нескольких процессах (редактор и рендер MRQ отдельным процессом UnrealEditor-Cmd -game,
+    D-042: Remote Execution включена и там), у каждого спрашивает PROBE — есть ли подсистемы редактора — и берёт
+    редактор (2026-09-27: команда попала в рендер)."""
     deadline = time.time() + timeout_s
     found = []
     while time.time() < deadline:
-        found = [n for n in remote.remote_nodes if n.get("project_name") == PROJECT]
+        found = [n for n in remote.remote_nodes if n.get("project_name") == PROJECT and _same_root(n)]
         if found:
             time.sleep(1.0)  # дать ответить остальным процессам проекта
-            found = [n for n in remote.remote_nodes if n.get("project_name") == PROJECT]
+            found = [n for n in remote.remote_nodes if n.get("project_name") == PROJECT and _same_root(n)]
             break
         time.sleep(0.2)
     if len(found) == 1:
