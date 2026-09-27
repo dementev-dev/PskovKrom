@@ -16,7 +16,7 @@
 | D-005 | Бюджет рендера под RTX 3060 Laptop | Accepted | 4K кольца → D-023; вьюпорт 100 % → D-024 |
 | D-006 | Стиль — стилизованный реализм | Accepted | — |
 | D-007 | Процесс — документы в репозитории, handoff на сессию | Accepted | словарь `CONTEXT.md`: уточнение 2026-09-25 |
-| D-008 | Git + Git LFS, remote пока нет | Accepted, часть заменена | состав git → D-045 |
+| D-008 | Git + Git LFS; GitHub dementev-dev/PskovKrom | Accepted, часть заменена | состав git → D-045; публикация: уточнение 2026-09-27 |
 | D-009 | Шаблон First Person; движок в `D:\Games\Epic Games` | Accepted | шаблон вне git → D-045 |
 | D-010 | MCP — Unreal MCP: интерфейс редактора и снимки | Accepted, часть заменена | скрипты → D-011; роль MCP: уточнение 2026-09-27 |
 | D-011 | Remote Execution — скрипты редактора через `ue_run.py` | Accepted | выбор редактора по PROBE → D-042 |
@@ -103,6 +103,7 @@
 - **Решение:** git для docs/scripts/Config; `.uasset` / `.umap` / картинки / видео через LFS; Intermediate, Saved, DerivedDataCache, Binaries — в `.gitignore`.
 - **Альтернатива:** без git, только бэкапы на `D:\Backup`. Проще, но нет истории и «было/стало».
 - **Риск:** бинарные ассеты быстро раздувают репозиторий. Решение о remote (GitHub LFS имеет квоты) — отдельно, пока репозиторий только локальный.
+- **Уточнение 2026-09-27 (GitHub):** репозиторий опубликован — https://github.com/dementev-dev/PskovKrom (публичный, MIT для кода и CC BY-NC-SA 4.0 для данных и документов, см. `README.md`, `LICENSE`, `LICENSE-CC-BY-NC-SA.md`). На GitHub ушёл снимок одним коммитом (`ad9298c`, 217 МБ LFS); прежняя история (110 коммитов, 2,1 ГБ старых версий ассетов в LFS) осталась локальной веткой `main-history` и на GitHub не отправляется (D-045). Веб-версия — ветка `gh-pages` (обычные файлы без LFS, собирается из `build/web`), GitHub Pages: https://dementev-dev.github.io/PskovKrom/. Доступ — `gh` CLI, учётка dementev-dev; `git push` использует его как credential helper.
 
 ## D-009. Шаблон проекта — First Person; движок в `D:\Games\Epic Games\UE_5.8`
 - **Дата:** 2026-09-25 · **Статус:** Accepted
