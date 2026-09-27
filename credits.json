@@ -1,0 +1,1985 @@
+{
+ "generated": "2026-09-27",
+ "script": "scripts/web_export.py",
+ "photos_total": 445,
+ "photos": [
+  {
+   "key": "commons",
+   "object": "Кром: стены, башни, двор",
+   "ref": "S-25",
+   "photos": 15,
+   "authors": [
+    {
+     "name": "Александр Спиридонов",
+     "n": 3,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Nicholas Nemtsev",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Sachkv",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 1,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Aleksander Kaasik",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Eirene Andrea Craske",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ivo Kruusamägi",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "SaninAl",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "SheriFF",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "yard",
+   "object": "Двор Крома: Дом причта, Пороховые погреба, Консистория",
+   "ref": "S-70",
+   "photos": 15,
+   "authors": [
+    {
+     "name": "A.Savin",
+     "n": 3,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Екатерина Борисова",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "BKDRF",
+     "n": 1,
+     "licenses": [
+      "CC BY 4.0"
+     ]
+    },
+    {
+     "name": "Reshinna",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "prikaz",
+   "object": "Приказные палаты",
+   "ref": "S-126",
+   "photos": 10,
+   "authors": [
+    {
+     "name": "Ludvig14",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Екатерина Борисова",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 1,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Aleksandr Abrosimov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lion10~commonswiki",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Reshinna",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "okolny",
+   "object": "Стена Окольного города по Великой, Мстиславская башня",
+   "ref": "S-74",
+   "photos": 10,
+   "authors": [
+    {
+     "name": "Александр Сигачёв",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0",
+      "CC0"
+     ]
+    },
+    {
+     "name": "Mary Mavier",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 1,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Ilya Oleinikov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Julabo1980",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "karel291",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mstislav",
+   "object": "Мстиславская башня",
+   "ref": "S-90",
+   "photos": 4,
+   "authors": [
+    {
+     "name": "Julabo1980",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Konstantin Kč",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Lion10~commonswiki",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lumaca",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "env",
+   "object": "Окружение Крома: берега, тропы, набережные",
+   "ref": "S-42",
+   "photos": 20,
+   "authors": [
+    {
+     "name": "A.Savin",
+     "n": 4,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Eirene Andrea Craske",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0",
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Darafsh",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "LenaLennka",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lumaca",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Mary Mavier",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Natalia Semenova",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "TATYANA IVANOVA",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Vadim Indeikin",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "angelius1979",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "karel291",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "landmarks",
+   "object": "Памятные знаки: кресты, меч Довмонта, «Россия начинается здесь»",
+   "ref": "S-86…S-89",
+   "photos": 5,
+   "authors": [
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Konstantin Kč",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "OlesyaGen",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "School1pskov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Елена Нечипоренко",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bridge",
+   "object": "Ольгинский мост",
+   "ref": "S-48",
+   "photos": 10,
+   "authors": [
+    {
+     "name": "Александр Сигачёв",
+     "n": 4,
+     "licenses": [
+      "CC0"
+     ]
+    },
+    {
+     "name": "PlatonPskov",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 1,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Gavrilov S.A.",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "User 699",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "finpark",
+   "object": "Финский парк, плотина, пешеходный мост",
+   "ref": "S-80",
+   "photos": 53,
+   "authors": [
+    {
+     "name": "Ulaisaeva",
+     "n": 16,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Princess 3110",
+     "n": 11,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Sergey Rodovnichenko from Moscow, Russia",
+     "n": 7,
+     "licenses": [
+      "CC BY-SA 2.0"
+     ]
+    },
+    {
+     "name": "Darafsh",
+     "n": 4,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Mascha80bond",
+     "n": 4,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Chuprinka83",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Konstantin Kč",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 2,
+     "licenses": [
+      "CC0"
+     ]
+    },
+    {
+     "name": "Dor Shabashewitz",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Mike like0708",
+     "n": 1,
+     "licenses": [
+      "CC BY 4.0"
+     ]
+    },
+    {
+     "name": "Nicholas Nemtsev",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "kishjar? from Moscow, Russia",
+     "n": 1,
+     "licenses": [
+      "CC BY 2.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "chapels",
+   "object": "Часовни",
+   "ref": "S-60",
+   "photos": 11,
+   "authors": [
+    {
+     "name": "TATYANA IVANOVA",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Lumaca",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "EACraske",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Olga1969",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "SaninAl",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "SheriFF",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "paromenye",
+   "object": "Церковь Успения с Пароменья и звонница",
+   "ref": "S-54",
+   "photos": 12,
+   "authors": [
+    {
+     "name": "GAlexandrova",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "EACraske",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Gavrilov S.A.",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Sergei Kaliagin",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Totoshka",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Yaster89",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Екатерина Борисова",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kozmy",
+   "object": "Церковь Козьмы и Дамиана с Примостья",
+   "ref": "S-64",
+   "photos": 12,
+   "authors": [
+    {
+     "name": "Lion10~commonswiki",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Екатерина Борисова",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Albackd",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Mary Mavier",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Vilgun",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 1,
+     "licenses": [
+      "CC0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mironositsy",
+   "object": "Церковь Жён-Мироносиц и Мироносицкое кладбище",
+   "ref": "S-81",
+   "photos": 12,
+   "authors": [
+    {
+     "name": "GAlexandrova",
+     "n": 4,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ingvar-fed",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 3.0",
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Paleologos14",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Tarlexx",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "petrapavla",
+   "object": "Церковь Петра и Павла с Буя",
+   "ref": "S-91",
+   "photos": 12,
+   "authors": [
+    {
+     "name": "Gavrilov S.A.",
+     "n": 4,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Tsyganov Sergey",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Darafsh",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Витольд Муратов",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "varlaam",
+   "object": "Церковь Варлаама Хутынского на Званице",
+   "ref": "S-94",
+   "photos": 13,
+   "authors": [
+    {
+     "name": "Gavrilov S.A.",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Tsyganov Sergey",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Belliy",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ghirlandajo",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Lumaca",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Totoshka",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bogoyavlenie",
+   "object": "Церковь Богоявления с Запсковья и звонница",
+   "ref": "S-97",
+   "photos": 13,
+   "authors": [
+    {
+     "name": "Lion10~commonswiki",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Belliy",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Buzov Vladimir",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Dionisius1976",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "DmitryDobrin",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Gavrilov S.A.",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Vilgun",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 1,
+     "licenses": [
+      "CC0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vasily",
+   "object": "Церковь Василия на Горке",
+   "ref": "S-100",
+   "photos": 16,
+   "authors": [
+    {
+     "name": "Ludvig14",
+     "n": 4,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Visem",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Gavrilov S.A.",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Ilya Oleinikov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lion10~commonswiki",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Nicholas Nemtsev",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Patriot k",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "shakko",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ilya",
+   "object": "Церковь Ильи Пророка с Мокрого Луга",
+   "ref": "S-106",
+   "photos": 13,
+   "authors": [
+    {
+     "name": "AndyVolykhov",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Gavrilov S.A.",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "TATYANA IVANOVA",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Belliy",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lion10~commonswiki",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lumaca",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "predtecha",
+   "object": "Собор Иоанна Предтечи Ивановского монастыря",
+   "ref": "S-109",
+   "photos": 13,
+   "authors": [
+    {
+     "name": "A.Savin",
+     "n": 2,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 2,
+     "licenses": [
+      "CC0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Dkozerukov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ivan Rahnovskiy",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "OlesyaGen",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Plescava",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "TATYANA IVANOVA",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Левкий",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mikhail",
+   "object": "Церковь Михаила и Гавриила Архангелов с Городца",
+   "ref": "S-115",
+   "photos": 9,
+   "authors": [
+    {
+     "name": "A.Savin",
+     "n": 2,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Albackd",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Jane Gulneva",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "usokha",
+   "object": "Церковь Николы со Усохи",
+   "ref": "S-120",
+   "photos": 12,
+   "authors": [
+    {
+     "name": "Александр Сигачёв",
+     "n": 6,
+     "licenses": [
+      "CC0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Albackd",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ilya Oleinikov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pskovgu",
+   "object": "Корпуса ПсковГУ",
+   "ref": "S-130…S-134",
+   "photos": 29,
+   "authors": [
+    {
+     "name": "Александр Спиридонов",
+     "n": 6,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 5,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Darafsh",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Natalia Semenova",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "User 699",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "karel291",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Konstantin Kč",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Lvovick",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "PlatonPskov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Vasilii Martynov",
+     "n": 1,
+     "licenses": [
+      "CC0"
+     ]
+    },
+    {
+     "name": "Visem",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "lenin_square",
+   "object": "Площадь Ленина",
+   "ref": "",
+   "photos": 24,
+   "authors": [
+    {
+     "name": "Александр Спиридонов",
+     "n": 4,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Екатерина Борисова",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Konstantin Kč",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Natalia Semenova",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Ulaisaeva",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Visem",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Николай викторович",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Dezidor",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lion10~commonswiki",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lumaca",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Pavlikhin",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "ismail soytekınoglu",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Алексей Задонский",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "zapskovye",
+   "object": "Запсковье: Советская набережная, ул. Леона Поземского",
+   "ref": "",
+   "photos": 37,
+   "authors": [
+    {
+     "name": "karel291",
+     "n": 7,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Yaroslav Igoshin",
+     "n": 6,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 5,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Екатерина Борисова",
+     "n": 5,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 3,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Nicholas Nemtsev",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 2,
+     "licenses": [
+      "CC0"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Eirene Andrea Craske",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "LodigaVladimir",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lvovick",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Oliver Feliz",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "facade",
+   "object": "Рядовая застройка: фасады образцов",
+   "ref": "",
+   "photos": 10,
+   "authors": [
+    {
+     "name": "AndyVolykhov",
+     "n": 6,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Сигачёв",
+     "n": 2,
+     "licenses": [
+      "CC0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 1,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Nesabytka",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "lenina",
+   "object": "lenina",
+   "ref": "",
+   "photos": 19,
+   "authors": [
+    {
+     "name": "Екатерина Борисова",
+     "n": 5,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 2,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Natalia Semenova",
+     "n": 2,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Yaroslav Igoshin",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Николай викторович",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Пересмешникъ",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Dezidor",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "GAlexandrova",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Pavlikhin",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Visem",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "oktyabrskaya",
+   "object": "oktyabrskaya",
+   "ref": "",
+   "photos": 31,
+   "authors": [
+    {
+     "name": "karel291",
+     "n": 9,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Chuprinka83",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Mascha80bond",
+     "n": 3,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Bogdanov-62",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "SheriFF",
+     "n": 2,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "A.Savin",
+     "n": 1,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "Artem Rybalchenko",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Gavrilov S.A.",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 3.0"
+     ]
+    },
+    {
+     "name": "Leonid Evdokimov",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Ludvig14",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Lumaca",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Mike like0708",
+     "n": 1,
+     "licenses": [
+      "CC BY 4.0"
+     ]
+    },
+    {
+     "name": "Sea Est",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Siverec",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Ulaisaeva",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "kikiwis",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pozemskogo",
+   "object": "pozemskogo",
+   "ref": "",
+   "photos": 5,
+   "authors": [
+    {
+     "name": "A.Savin",
+     "n": 3,
+     "licenses": [
+      "FAL"
+     ]
+    },
+    {
+     "name": "AndyVolykhov",
+     "n": 1,
+     "licenses": [
+      "CC BY-SA 4.0"
+     ]
+    },
+    {
+     "name": "Александр Спиридонов",
+     "n": 1,
+     "licenses": [
+      "CC BY 3.0"
+     ]
+    }
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "Leafy Grass",
+   "authors": [
+    "Charlotte Baglioni"
+   ],
+   "license": "CC0",
+   "url": "https://polyhaven.com/a/leafy_grass"
+  },
+  {
+   "name": "Rock Wall 08",
+   "authors": [
+    "Amal Kumar"
+   ],
+   "license": "CC0",
+   "url": "https://polyhaven.com/a/rock_wall_08"
+  },
+  {
+   "name": "Painted Plaster Wall",
+   "authors": [
+    "Amal Kumar"
+   ],
+   "license": "CC0",
+   "url": "https://polyhaven.com/a/painted_plaster_wall"
+  },
+  {
+   "name": "Old Planks 02",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "license": "CC0",
+   "url": "https://polyhaven.com/a/old_planks_02"
+  },
+  {
+   "name": "Cobblestone Floor 08",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "license": "CC0",
+   "url": "https://polyhaven.com/a/cobblestone_floor_08"
+  },
+  {
+   "name": "Asphalt 02",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "license": "CC0",
+   "url": "https://polyhaven.com/a/asphalt_02"
+  }
+ ]
+}
