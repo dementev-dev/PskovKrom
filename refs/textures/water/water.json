@@ -1,0 +1,8 @@
+{
+  "script": "scripts/water_normals.py",
+  "normal": "refs/textures/water/T_WaterRipples_N.png",
+  "tile_m": 4.0,
+  "wind_ms": 1.5,
+  "slope_rms": 0.12,
+  "mean_tilt_deg": 5.96
+}

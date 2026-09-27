@@ -1,0 +1,4 @@
+#!/bin/sh
+# Текстовые файлы в индексе: управляющие символы и битый UTF-8 (scripts/check_text.py).
+# Подключение после клонирования: git config core.hooksPath .githooks
+exec python scripts/check_text.py

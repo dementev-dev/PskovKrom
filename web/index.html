@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Псковский Кром — прогулка по модели в браузере</title>
+<meta name="description" content="Любительская некоммерческая 3D-модель Псковского Крома и Довмонтова города в реальном масштабе: полёт и прогулка в браузере.">
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #9fb3c8; font: 13px/1.4 system-ui, sans-serif; }
+  canvas { display: block; }
+  a { color: #9fd0ff; }
+  button, select { font: inherit; }
+  .panel { position: absolute; left: 10px; color: #fff; background: rgba(20, 24, 30, .62); border-radius: 6px;
+           user-select: none; }
+  #top { top: 10px; padding: 6px 10px; display: flex; align-items: center; gap: 8px; }
+  #top b { font-size: 15px; letter-spacing: .02em; }
+  #top .sub { opacity: .75; }
+  #hud { top: 50px; padding: 6px 10px 8px; min-width: 250px; }
+  #hud select, #hud button { margin: 4px 4px 0 0; }
+  #stats { font-family: ui-monospace, monospace; white-space: pre; margin-top: 4px; }
+  #hint { margin-top: 4px; opacity: .8; }
+  #loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+             flex-direction: column; background: #9fb3c8; color: #1c2430; font-size: 16px; z-index: 5; }
+  #bar { width: 320px; height: 8px; background: rgba(0, 0, 0, .15); border-radius: 4px; margin-top: 10px; overflow: hidden; }
+  #bar div { height: 100%; width: 0; background: #2e5d8a; transition: width .2s; }
+  #cross { position: absolute; left: 50%; top: 50%; width: 6px; height: 6px; margin: -3px 0 0 -3px;
+           border-radius: 50%; background: rgba(255, 255, 255, .7); display: none; }
+  .overlay { position: absolute; inset: 0; background: rgba(10, 14, 20, .55); display: none; z-index: 10;
+             align-items: center; justify-content: center; }
+  .overlay.open { display: flex; }
+  .card { position: relative; background: #f6f4ef; color: #1c2430; border-radius: 8px; max-width: 760px;
+          width: calc(100% - 40px); max-height: calc(100% - 40px); overflow: auto; padding: 18px 24px 20px;
+          box-shadow: 0 8px 30px rgba(0, 0, 0, .35); font-size: 14px; }
+  .card a { color: #1f5d99; }
+  .card h2 { margin: 0 0 10px; font-size: 20px; }
+  .card h3 { margin: 16px 0 6px; font-size: 15px; }
+  .card p { margin: 6px 0; }
+  .card ul { margin: 4px 0; padding-left: 20px; }
+  .card li { margin: 4px 0; }
+  .card .close { position: absolute; right: 10px; top: 8px; border: 0; background: none; font-size: 22px;
+                 cursor: pointer; color: #555; }
+  .card .en { font-style: italic; color: #444; }
+  .card .small { font-size: 12.5px; color: #444; }
+  table.keys { border-collapse: collapse; margin: 4px 0; }
+  table.keys td { padding: 3px 12px 3px 0; vertical-align: top; }
+  table.keys td:first-child { white-space: nowrap; font-weight: 600; }
+  kbd { font: 12px ui-monospace, monospace; background: #e4e1d8; border: 1px solid #c8c3b6; border-radius: 3px; padding: 0 4px; }
+  #viewlist { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+  #viewlist button { padding: 3px 8px; cursor: pointer; }
+  #photos li { margin: 3px 0; }
+  body.shot .panel, body.shot #cross, body.shot .overlay { display: none !important; }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
+    "three-mesh-bvh": "https://cdn.jsdelivr.net/npm/three-mesh-bvh@0.9.15/build/index.module.js"
+  }
+}
+</script>
+</head>
+<body>
+<div id="loading">
+  <div>Псковский Кром — загрузка сцены</div>
+  <div id="bar"><div></div></div>
+  <div id="loadtext" style="margin-top:6px;font-size:13px">…</div>
+</div>
+
+<div id="top" class="panel">
+  <b>Псковский Кром</b><span class="sub">модель в браузере</span>
+  <button id="btn-help" title="H">Управление</button>
+  <button id="btn-credits">Источники</button>
+</div>
+<div id="hud" class="panel">
+  <div>
+    <select id="views" title="Точки обзора (V — следующая)"></select>
+    <button id="mode" title="G">Пешком</button>
+    <button id="noclip" title="N — пройти сквозь стены в пешем режиме">Сквозь стены: выкл</button>
+    <button id="shadows" title="Тени от солнца">Тени: вкл</button>
+  </div>
+  <div id="stats"></div>
+  <div id="hint">Клик — захватить мышь, WASD — идти, G — пешком, H — управление.</div>
+</div>
+<div id="cross"></div>
+
+<div id="help" class="overlay" role="dialog" aria-label="Управление">
+  <div class="card">
+    <button class="close" title="Закрыть (Esc)">×</button>
+    <h2>Управление</h2>
+    <table class="keys">
+      <tr><td>Мышь</td><td>клик по сцене — захватить мышь, <kbd>Esc</kbd> — отпустить; или тянуть с зажатой кнопкой</td></tr>
+      <tr><td><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>, стрелки</td><td>вперёд, влево, назад, вправо</td></tr>
+      <tr><td><kbd>Shift</kbd></td><td>быстрее: бег пешком, ×4 в полёте</td></tr>
+      <tr><td><kbd>E</kbd> / <kbd>Q</kbd></td><td>вверх / вниз в полёте (также <kbd>Пробел</kbd> / <kbd>C</kbd>)</td></tr>
+      <tr><td>Колесо мыши</td><td>скорость полёта</td></tr>
+      <tr><td><kbd>G</kbd></td><td>пешком / полёт</td></tr>
+      <tr><td><kbd>N</kbd></td><td>сквозь стены (пешком): если застряли или хочется заглянуть внутрь</td></tr>
+      <tr><td><kbd>V</kbd></td><td>следующая точка обзора</td></tr>
+      <tr><td><kbd>H</kbd></td><td>эта справка; <kbd>Esc</kbd> — закрыть</td></tr>
+    </table>
+    <p><b>Пешком</b> глаза на высоте 1,7 м, шаг 1,6 м/с, бег 5 м/с. Стены, башни, храмы, дома и перила мостов
+      не пускают, в реку не зайти; по мостам, лестницам, дорогам и ступеням можно ходить, невысокий бордюр
+      перешагивается. Если включить пеший режим над домом или рекой, вы окажетесь на ближайшем свободном месте.</p>
+    <h3>Точки обзора</h3>
+    <div id="viewlist"></div>
+    <p class="small">Ссылка на вид: <code>?view=olginsky</code>, пешком — <code>&amp;mode=walk</code>, без теней — <code>&amp;shadows=0</code>.</p>
+  </div>
+</div>
+
+<div id="credits" class="overlay" role="dialog" aria-label="Источники и лицензии">
+  <div class="card">
+    <button class="close" title="Закрыть (Esc)">×</button>
+    <h2>Источники и лицензии</h2>
+    <p><b>Псковский Кром</b> — любительская трёхмерная реконструкция Псковского кремля (Крома), Довмонтова города
+      и окрестностей в реальном масштабе. Проект некоммерческий: сделан для удовольствия и для псковичей,
+      без рекламы и платы за доступ. Это не научная реконструкция: форма зданий сверена с картами, обмерами
+      и фотографиями, а там, где источника нет, это предположение автора.</p>
+
+    <h3>Карта — OpenStreetMap</h3>
+    <p>© участники OpenStreetMap. Данные доступны по лицензии Open Database License (ODbL) 1.0:
+      <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">openstreetmap.org/copyright</a>.
+      Из OpenStreetMap взяты контуры зданий, стен, дорог и берегов, а также деревья, скамейки и фонари.</p>
+
+    <h3>Рельеф — FABDEM V1-2</h3>
+    <p>FABDEM V1-2, University of Bristol: Hawker L., Uhe P., Paulo L., Sosa J., Savage J., Sampson C., Neal J.
+      A 30 m global map of elevation with forests and buildings removed // Environmental Research Letters, 2022,
+      17, 024016, <a href="https://doi.org/10.1088/1748-9326/ac4d4f" target="_blank" rel="noopener">doi:10.1088/1748-9326/ac4d4f</a>.
+      Лицензия <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> —
+      только некоммерческое использование.
+      Рельеф этой сцены (файлы <code>terrain.glb</code> и <code>horizon.glb</code>) сделан из FABDEM и доступен на тех же
+      условиях: CC BY-NC-SA 4.0.</p>
+    <p>FABDEM построен на Copernicus DEM GLO-30 © ESA:
+      <span class="en">produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH
+      2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.</span></p>
+
+    <h3>Покрытие земли — ESA WorldCover</h3>
+    <p class="en">© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by
+      ESA WorldCover consortium.</p>
+    <p>Лицензия <a href="https://creativecommons.org/licenses/by/4.0/deed.ru" target="_blank" rel="noopener">CC BY 4.0</a>.
+      Zanaga D. et al. ESA WorldCover 10 m 2021 v200, 2022,
+      <a href="https://doi.org/10.5281/zenodo.7254221" target="_blank" rel="noopener">doi:10.5281/zenodo.7254221</a>.
+      Из WorldCover — цвет земли на кольце горизонта и густота деревьев.</p>
+
+    <h3>Текстуры — Poly Haven</h3>
+    <p>Текстуры с <a href="https://polyhaven.com" target="_blank" rel="noopener">polyhaven.com</a>, лицензия
+      <a href="https://polyhaven.com/license" target="_blank" rel="noopener">CC0</a> (общественное достояние):
+      <span id="textures">…</span>.</p>
+
+    <h3>Деревья</h3>
+    <p>В браузере деревья — упрощённые кроны, расставленные по OpenStreetMap и WorldCover. В основной версии
+      проекта (Unreal Engine) модели деревьев построены по образцам скелетов из плагина Procedural Vegetation
+      Editor — это контент Epic Games, он используется по лицензии Unreal Engine и в веб-версию не входит.</p>
+
+    <h3>Фотографии — Wikimedia Commons</h3>
+    <p>По фотографиям с <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a>
+      сверялись форма, цвет и размеры зданий; сами снимки на сайте не показываются. Спасибо авторам
+      (<span id="photos-total">…</span>):</p>
+    <ul id="photos"><li>…</li></ul>
+    <p class="small">Ещё несколько снимков (колокольня Троицкого собора, Кутекрома, Рыбницкая башня и другие)
+      использованы только для замеров; их авторы и лицензии записаны в журнале источников проекта.</p>
+
+    <h3>Обмеры и история</h3>
+    <p>Размеры и сведения о памятниках — из описаний Министерства культурного наследия Псковской области
+      (gkn.pskov.ru), Псковского музея-заповедника, сводов opskove.ru и pleskov60.ru, научных публикаций.
+      Они использованы только для сверки: тексты и чертежи на сайте не воспроизводятся.</p>
+
+    <h3>Программы</h3>
+    <p><a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> (MIT) — показ сцены,
+      <a href="https://github.com/gkjohnson/three-mesh-bvh" target="_blank" rel="noopener">three-mesh-bvh</a> (MIT) — столкновения;
+      обе библиотеки загружаются с CDN jsDelivr.
+      <a href="https://meshoptimizer.org" target="_blank" rel="noopener">meshoptimizer</a> и
+      <a href="https://gltf-transform.dev" target="_blank" rel="noopener">glTF-Transform</a> (MIT) — упрощение и сжатие моделей;
+      <a href="https://www.blender.org" target="_blank" rel="noopener">Blender</a> (GNU GPL) — моделирование;
+      Unreal Engine 5.8 — основная версия проекта.</p>
+    <p class="small" id="credits-gen"></p>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

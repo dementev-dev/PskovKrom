@@ -1,0 +1,51 @@
+# Unreal Engine — генерируемое
+Krom/Binaries/
+Krom/Intermediate/
+Krom/Saved/
+Krom/DerivedDataCache/
+Krom/Build/
+Krom/Plugins/*/Binaries/
+Krom/Plugins/*/Intermediate/
+Krom/.vs/
+Krom/*.sln
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+
+# Python
+__pycache__/
+*.pyc
+
+# ОС
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Большие рендеры держим вне git, в media/progress — только отобранное
+media/renders/
+
+# Локальное окружение Python для скриптов вне редактора (scripts/requirements.txt)
+.venv/
+
+# Промежуточные выгрузки Blender → UE (build/blender/*.glb): пересобираются скриптами scripts/blender (D-018)
+build/
+
+# Рабочие копии субагентов Claude Code (git worktree)
+.claude/worktrees/
+
+# Сгенерированные ассеты UE — не в git (D-045): их строят scripts/*_krom.py из refs/ и build/, порядок — scripts/README.md
+# «Первичная сборка». В git остаётся скелет проекта: Krom.uproject, Config, Content/Python, Maps (L_Krom.umap),
+# __ExternalActors__ и __ExternalObjects__ (там Landscape, который создаётся через интерфейс, D-014).
+Krom/Content/Krom/Environment/
+Krom/Content/Krom/Architecture/
+Krom/Content/Krom/Materials/
+Krom/Content/Krom/Blockout/
+Krom/Content/Krom/Cinematics/
+# Шаблонный контент UE (FirstPerson), в сцене не используется
+Krom/Content/Characters/
+Krom/Content/LevelPrototyping/
+Krom/Content/FirstPerson/
+Krom/Content/Input/
+Krom/Content/Developers/
+Krom/Content/Collections/

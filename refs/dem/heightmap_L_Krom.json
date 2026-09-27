@@ -1,0 +1,47 @@
+{
+  "generated": "2026-09-27",
+  "script": "scripts/terrain_krom.py",
+  "heightmap": "refs/dem/heightmap_L_Krom.png",
+  "map_texture": "refs/dem/landscape_map_L_Krom.png",
+  "mask_texture": "refs/dem/ground_mask_L_Krom.png",
+  "mask_channels": {
+    "R": "Earth",
+    "G": "Paved",
+    "B": "Asphalt",
+    "A": "Built"
+  },
+  "mask2_texture": "refs/dem/ground_mask2_L_Krom.png",
+  "mask2_channels": {
+    "R": "Gravel",
+    "G": "Shore",
+    "B": "Riprap",
+    "A": "Wood"
+  },
+  "size": 2017,
+  "landscape": {
+    "location_uu": [
+      -100800.0,
+      -100800.0,
+      0.0
+    ],
+    "scale": [
+      100.0,
+      100.0,
+      100.0
+    ],
+    "quads_per_section": 63,
+    "sections_per_component": 2,
+    "components": [
+      16,
+      16
+    ]
+  },
+  "z0_abs_m": 43.15,
+  "water_level_abs_m": 30.0,
+  "water_level_z_m": -13.15,
+  "z_range_m": [
+    -17.15,
+    13.21
+  ],
+  "dem": "FABDEM V1-2 (Univ. of Bristol, from Copernicus GLO-30 © ESA), CC BY-NC-SA 4.0"
+}

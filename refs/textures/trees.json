@@ -1,0 +1,108 @@
+{
+  "generated": "2026-09-26",
+  "script": "scripts/leaf_atlas.py",
+  "atlas": {
+    "diffuse": "refs/textures/leaves/T_LeafAtlas_D.png",
+    "normal": "refs/textures/leaves/T_LeafAtlas_N.png",
+    "size": 2048,
+    "grid": [
+      4,
+      4
+    ],
+    "rows": {
+      "maple": {
+        "row": 0,
+        "name": "клён остролистный",
+        "coverage": 0.337,
+        "mean_linear": [
+          0.0521,
+          0.1165,
+          0.0201
+        ]
+      },
+      "aspen": {
+        "row": 1,
+        "name": "осина",
+        "coverage": 0.284,
+        "mean_linear": [
+          0.0857,
+          0.1529,
+          0.0509
+        ]
+      },
+      "hazel": {
+        "row": 2,
+        "name": "лещина",
+        "coverage": 0.381,
+        "mean_linear": [
+          0.0683,
+          0.1389,
+          0.0258
+        ]
+      },
+      "linden": {
+        "row": 3,
+        "name": "липа мелколистная",
+        "coverage": 0.274,
+        "mean_linear": [
+          0.051,
+          0.1074,
+          0.0248
+        ]
+      }
+    },
+    "cell": "строка — порода (row 0 — верх картинки), 4 варианта веточки слева направо: от простой до ветвистой",
+    "pivot": "основание веточки — середина нижнего края ячейки",
+    "alpha": "0/255, порог 0,5 при уменьшении с 4× (masked); цвет под прозрачным продолжен",
+    "normal_space": "DirectX (как nor_dx Poly Haven)",
+    "seed": 20260926,
+    "license": "сгенерирован scripts/leaf_atlas.py (свой, без ограничений)"
+  },
+  "bark": {
+    "rough": {
+      "asset": "bark_brown_02",
+      "name": "Bark Brown 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "tile_m": 1.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/bark_brown_02",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/bark_brown_02_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/bark_brown_02_nor_dx_2k.jpg"
+      },
+      "mean_linear": [
+        0.1298,
+        0.1069,
+        0.0647
+      ]
+    },
+    "smooth": {
+      "asset": "chinese_hackberry_bark",
+      "name": "Chinese Hackberry Bark",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "tile_m": 1.8,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/chinese_hackberry_bark",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/chinese_hackberry_bark_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/chinese_hackberry_bark_nor_dx_2k.jpg"
+      },
+      "mean_linear": [
+        0.0911,
+        0.0649,
+        0.0352
+      ]
+    }
+  },
+  "bark_source": "Poly Haven (polyhaven.com), CC0; UV коры в tree.py — в метрах (U по окружности, V вдоль ветви)",
+  "species_bark": {
+    "maple": "rough",
+    "linden": "rough",
+    "aspen": "smooth",
+    "hazel": "smooth"
+  }
+}

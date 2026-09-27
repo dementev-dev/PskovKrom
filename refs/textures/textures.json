@@ -1,0 +1,264 @@
+{
+  "generated": "2026-09-26",
+  "script": "scripts/textures_fetch.py",
+  "source": "Poly Haven (polyhaven.com), CC0",
+  "textures": {
+    "Grass": {
+      "asset": "leafy_grass",
+      "name": "Leafy Grass",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "tile_m": 2.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/leafy_grass",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/leafy_grass_diff_2k.jpg"
+      },
+      "mean_linear": [
+        0.3238,
+        0.2387,
+        0.1086
+      ]
+    },
+    "Earth": {
+      "asset": "park_dirt",
+      "name": "Park Dirt",
+      "authors": [
+        "Christopher Melani"
+      ],
+      "tile_m": 3.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/park_dirt",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/park_dirt_diff_2k.jpg"
+      },
+      "mean_linear": [
+        0.2016,
+        0.1368,
+        0.0533
+      ]
+    },
+    "Asphalt": {
+      "asset": "asphalt_02",
+      "name": "Asphalt 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "tile_m": 3.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/asphalt_02",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/asphalt_02_diff_2k.jpg"
+      },
+      "mean_linear": [
+        0.1162,
+        0.1143,
+        0.102
+      ]
+    },
+    "Paved": {
+      "asset": "cobblestone_floor_08",
+      "name": "Cobblestone Floor 08",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "tile_m": 2.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/cobblestone_floor_08",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/cobblestone_floor_08_diff_2k.jpg"
+      },
+      "mean_linear": [
+        0.3032,
+        0.2764,
+        0.2322
+      ]
+    },
+    "Gravel": {
+      "asset": "gravelly_sand",
+      "name": "Gravelly Sand",
+      "authors": [
+        "Dario Barresi"
+      ],
+      "tile_m": 2.48,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/gravelly_sand",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/gravelly_sand_diff_2k.jpg"
+      },
+      "mean_linear": [
+        0.2935,
+        0.1632,
+        0.0774
+      ]
+    },
+    "Shore": {
+      "asset": "floor_pebbles_01",
+      "name": "Floor Pebbles 01",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "tile_m": 3.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/floor_pebbles_01",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/floor_pebbles_01_diff_2k.jpg"
+      },
+      "mean_linear": [
+        0.3156,
+        0.2556,
+        0.165
+      ]
+    },
+    "Riprap": {
+      "asset": "gray_rocks",
+      "name": "Gray Rocks",
+      "authors": [
+        "Dimitrios Savva"
+      ],
+      "tile_m": 1.8,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/gray_rocks",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/gray_rocks_diff_2k.jpg"
+      },
+      "mean_linear": [
+        0.1998,
+        0.1759,
+        0.139
+      ]
+    }
+  },
+  "buildings": {
+    "Stone": {
+      "asset": "rock_wall_08",
+      "name": "Rock Wall 08",
+      "authors": [
+        "Amal Kumar"
+      ],
+      "tile_m": 1.8,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/rock_wall_08",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/rock_wall_08_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/rock_wall_08_nor_dx_2k.jpg",
+        "Rough": "refs/textures/polyhaven/rock_wall_08_rough_2k.jpg"
+      },
+      "mean_linear": [
+        0.0866,
+        0.0735,
+        0.0582
+      ],
+      "rough_mean": 0.8391
+    },
+    "Whitewash": {
+      "asset": "painted_plaster_wall",
+      "name": "Painted Plaster Wall",
+      "authors": [
+        "Amal Kumar"
+      ],
+      "tile_m": 2.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/painted_plaster_wall",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/painted_plaster_wall_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/painted_plaster_wall_nor_dx_2k.jpg",
+        "Rough": "refs/textures/polyhaven/painted_plaster_wall_rough_2k.jpg"
+      },
+      "mean_linear": [
+        0.4083,
+        0.3673,
+        0.352
+      ],
+      "rough_mean": 0.9188
+    },
+    "Planks": {
+      "asset": "old_planks_02",
+      "name": "Old Planks 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "tile_m": 2.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/old_planks_02",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/old_planks_02_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/old_planks_02_nor_dx_2k.jpg",
+        "Rough": "refs/textures/polyhaven/old_planks_02_rough_2k.jpg"
+      },
+      "mean_linear": [
+        0.1232,
+        0.0918,
+        0.0641
+      ],
+      "rough_mean": 0.6741
+    }
+  },
+  "roads": {
+    "Asphalt": {
+      "asset": "asphalt_02",
+      "name": "Asphalt 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "tile_m": 3.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/asphalt_02",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/asphalt_02_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/asphalt_02_nor_dx_2k.jpg",
+        "Rough": "refs/textures/polyhaven/asphalt_02_rough_2k.jpg"
+      },
+      "mean_linear": [
+        0.1162,
+        0.1143,
+        0.102
+      ],
+      "rough_mean": 0.7703
+    },
+    "Cobble": {
+      "asset": "cobblestone_floor_08",
+      "name": "Cobblestone Floor 08",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "tile_m": 2.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/cobblestone_floor_08",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/cobblestone_floor_08_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/cobblestone_floor_08_nor_dx_2k.jpg",
+        "Rough": "refs/textures/polyhaven/cobblestone_floor_08_rough_2k.jpg"
+      },
+      "mean_linear": [
+        0.3032,
+        0.2764,
+        0.2322
+      ],
+      "rough_mean": 0.5781
+    },
+    "Tiles": {
+      "asset": "pavement_03",
+      "name": "Pavement 03",
+      "authors": [
+        "Charlotte Baglioni",
+        "Dario Barresi"
+      ],
+      "tile_m": 2.0,
+      "license": "CC0",
+      "page": "https://polyhaven.com/a/pavement_03",
+      "maps": {
+        "Diffuse": "refs/textures/polyhaven/pavement_03_diff_2k.jpg",
+        "nor_dx": "refs/textures/polyhaven/pavement_03_nor_dx_2k.jpg",
+        "Rough": "refs/textures/polyhaven/pavement_03_rough_2k.jpg"
+      },
+      "mean_linear": [
+        0.2292,
+        0.1704,
+        0.1262
+      ],
+      "rough_mean": 0.7993
+    }
+  }
+}

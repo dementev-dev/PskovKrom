@@ -1,0 +1,4784 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-26T09:00:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 462847809,
+  "lat": 57.8150550,
+  "lon": 28.3412673,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "С. М. Киров",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 462847813,
+  "lat": 57.8166031,
+  "lon": 28.3407461,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "М. И. Кутузов",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 464879943,
+  "lat": 57.8193015,
+  "lon": 28.3327997,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Ленин"
+  }
+},
+{
+  "type": "node",
+  "id": 768753508,
+  "lat": 57.8186243,
+  "lon": 28.3211672,
+  "tags": {
+    "man_made": "surveillance",
+    "surveillance": "outdoor",
+    "surveillance:type": "camera",
+    "surveillance:zone": "traffic",
+    "website": "https://pskov.camera/#cam10"
+  }
+},
+{
+  "type": "node",
+  "id": 801940943,
+  "lat": 57.8213131,
+  "lon": 28.3140379,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Памятник жертвам репрессий",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 803818497,
+  "lat": 57.8163039,
+  "lon": 28.3349277,
+  "tags": {
+    "description": "Памятник княгине Ольге, установлен к 1100-летию со дня основания города. Работа скульптора Вячеслава Клыкова",
+    "height": "4.5",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Памятник княгине Ольге",
+    "start_date": "2003",
+    "tourism": "attraction",
+    "wikidata": "Q4343518"
+  }
+},
+{
+  "type": "node",
+  "id": 807353507,
+  "lat": 57.8211570,
+  "lon": 28.3301895,
+  "tags": {
+    "barrier": "gate",
+    "historic": "city_gate",
+    "name": "Великие ворота"
+  }
+},
+{
+  "type": "node",
+  "id": 829537672,
+  "lat": 57.8214109,
+  "lon": 28.3292996,
+  "tags": {
+    "historic": "memorial",
+    "man_made": "cross",
+    "memorial": "cross",
+    "name": "Крест памяти Благовещенского собора"
+  }
+},
+{
+  "type": "node",
+  "id": 931763143,
+  "lat": 57.8194774,
+  "lon": 28.3185373,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 942717749,
+  "lat": 57.8174609,
+  "lon": 28.3205654,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 942717798,
+  "lat": 57.8173733,
+  "lon": 28.3199951,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 942717826,
+  "lat": 57.8175299,
+  "lon": 28.3196707,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 942717840,
+  "lat": 57.8175342,
+  "lon": 28.3197454,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991611,
+  "lat": 57.8145635,
+  "lon": 28.3417444,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991645,
+  "lat": 57.8149559,
+  "lon": 28.3416453,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2025-06-06",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991647,
+  "lat": 57.8150196,
+  "lon": 28.3409026,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2025-06-06",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991652,
+  "lat": 57.8152548,
+  "lon": 28.3407582,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2025-06-06",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991671,
+  "lat": 57.8150153,
+  "lon": 28.3414101,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2025-06-06",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991679,
+  "lat": 57.8151493,
+  "lon": 28.3409398,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2025-06-06",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991688,
+  "lat": 57.8150922,
+  "lon": 28.3411255,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2025-06-06",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 969991692,
+  "lat": 57.8149339,
+  "lon": 28.3419053,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2025-06-06",
+    "colour": "blue",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 977534852,
+  "lat": 57.8148483,
+  "lon": 28.3265269,
+  "tags": {
+    "description": "На этом месте во время войны находился концлагерь для военнопленных",
+    "historic": "memorial",
+    "name": "Памятный знак на месте \"Лазарета\""
+  }
+},
+{
+  "type": "node",
+  "id": 988766800,
+  "lat": 57.8218665,
+  "lon": 28.3153608,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 988766879,
+  "lat": 57.8241015,
+  "lon": 28.3150758,
+  "tags": {
+    "amenity": "drinking_water",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 992005245,
+  "lat": 57.8169054,
+  "lon": 28.3307990,
+  "tags": {
+    "historic": "memorial",
+    "name": "Памятник финскому композитору Яну Сибелиусу"
+  }
+},
+{
+  "type": "node",
+  "id": 998181505,
+  "lat": 57.8203360,
+  "lon": 28.3247113,
+  "tags": {
+    "description": "Место, где св. Ольга предрекла: «Быть здесь великому и славному граду»",
+    "historic": "memorial",
+    "name": "Ольгин крест"
+  }
+},
+{
+  "type": "node",
+  "id": 1005458325,
+  "lat": 57.8199784,
+  "lon": 28.3187620,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 1005458389,
+  "lat": 57.8201172,
+  "lon": 28.3196218,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 1005458649,
+  "lat": 57.8199604,
+  "lon": 28.3187727,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 1093527938,
+  "lat": 57.8144391,
+  "lon": 28.3379759,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Два капитана",
+    "wikidata": "Q4155581"
+  }
+},
+{
+  "type": "node",
+  "id": 1116497779,
+  "lat": 57.8152598,
+  "lon": 28.3318040,
+  "tags": {
+    "genus": "Picea",
+    "leaf_type": "needleleaved",
+    "natural": "tree",
+    "species:en": "Spruce",
+    "species:ru": "Ель"
+  }
+},
+{
+  "type": "node",
+  "id": 1116619821,
+  "lat": 57.8205833,
+  "lon": 28.3309829,
+  "tags": {
+    "barrier": "gate",
+    "historic": "city_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1139067203,
+  "lat": 57.8144519,
+  "lon": 28.3412958,
+  "tags": {
+    "description": "19 марта 1984 г. издан Указ Президиума Верховного Совета СССР \"О награждении города Пскова Орденом Трудового Красного Знамени ...\"",
+    "historic": "memorial",
+    "memorial": "plaque"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219476,
+  "lat": 57.8182931,
+  "lon": 28.3302224,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219490,
+  "lat": 57.8168085,
+  "lon": 28.3308832,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219497,
+  "lat": 57.8173616,
+  "lon": 28.3305962,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Арль"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219508,
+  "lat": 57.8182759,
+  "lon": 28.3303520,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Перт"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219551,
+  "lat": 57.8168294,
+  "lon": 28.3308251,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Куопио"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219558,
+  "lat": 57.8182865,
+  "lon": 28.3304144,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219564,
+  "lat": 57.8175610,
+  "lon": 28.3306755,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Белосток"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219572,
+  "lat": 57.8182575,
+  "lon": 28.3301665,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219580,
+  "lat": 57.8176891,
+  "lon": 28.3305995,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Гера"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219586,
+  "lat": 57.8180811,
+  "lon": 28.3303320,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Норртелье"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219598,
+  "lat": 57.8168026,
+  "lon": 28.3307969,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219602,
+  "lat": 57.8173896,
+  "lon": 28.3306364,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219647,
+  "lat": 57.8173441,
+  "lon": 28.3306528,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219653,
+  "lat": 57.8183106,
+  "lon": 28.3303399,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219656,
+  "lat": 57.8179818,
+  "lon": 28.3304007,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Неймеген"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219659,
+  "lat": 57.8182587,
+  "lon": 28.3302327,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Нойс"
+  }
+},
+{
+  "type": "node",
+  "id": 1149148489,
+  "lat": 57.8167633,
+  "lon": 28.3396768,
+  "tags": {
+    "information": "board",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 1149148491,
+  "lat": 57.8191817,
+  "lon": 28.3296681,
+  "tags": {
+    "information": "board",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 1163463024,
+  "lat": 57.8151998,
+  "lon": 28.3387910,
+  "tags": {
+    "information": "board",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 1192521659,
+  "lat": 57.8178146,
+  "lon": 28.3430427,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 1192521752,
+  "lat": 57.8179434,
+  "lon": 28.3356086,
+  "tags": {
+    "historic": "shield",
+    "name": "В этом доме с марта по июнь 1900 года жил В. И. Ленин. Здесь им был написан проект заявления редакции „Искры“ и „Зари“"
+  }
+},
+{
+  "type": "node",
+  "id": 1248155218,
+  "lat": 57.8256276,
+  "lon": 28.3334436,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 1305922095,
+  "lat": 57.8242954,
+  "lon": 28.3191963,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 1483808146,
+  "lat": 57.8182631,
+  "lon": 28.3346936,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 1483808148,
+  "lat": 57.8183380,
+  "lon": 28.3346967,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 1740020276,
+  "lat": 57.8193526,
+  "lon": 28.3153389,
+  "tags": {
+    "amenity": "waste_basket",
+    "check_date": "2021-05-28"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237773,
+  "lat": 57.8209468,
+  "lon": 28.3310908,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237775,
+  "lat": 57.8210191,
+  "lon": 28.3311288,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237777,
+  "lat": 57.8211089,
+  "lon": 28.3309517,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237778,
+  "lat": 57.8211798,
+  "lon": 28.3313564,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237780,
+  "lat": 57.8208845,
+  "lon": 28.3310889,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237781,
+  "lat": 57.8213172,
+  "lon": 28.3314814,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237785,
+  "lat": 57.8214792,
+  "lon": 28.3306425,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237786,
+  "lat": 57.8215015,
+  "lon": 28.3317151,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237787,
+  "lat": 57.8215178,
+  "lon": 28.3314770,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237791,
+  "lat": 57.8216083,
+  "lon": 28.3312101,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237796,
+  "lat": 57.8216888,
+  "lon": 28.3311583,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237797,
+  "lat": 57.8216413,
+  "lon": 28.3305718,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237798,
+  "lat": 57.8216968,
+  "lon": 28.3311348,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237800,
+  "lat": 57.8217070,
+  "lon": 28.3311085,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237802,
+  "lat": 57.8217175,
+  "lon": 28.3310878,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237806,
+  "lat": 57.8217609,
+  "lon": 28.3310083,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237808,
+  "lat": 57.8217690,
+  "lon": 28.3309849,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237809,
+  "lat": 57.8217792,
+  "lon": 28.3309586,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237810,
+  "lat": 57.8217404,
+  "lon": 28.3309112,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237811,
+  "lat": 57.8217382,
+  "lon": 28.3305202,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237812,
+  "lat": 57.8217897,
+  "lon": 28.3309379,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237813,
+  "lat": 57.8218793,
+  "lon": 28.3305884,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237815,
+  "lat": 57.8220153,
+  "lon": 28.3303462,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237818,
+  "lat": 57.8222207,
+  "lon": 28.3300692,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237819,
+  "lat": 57.8224235,
+  "lon": 28.3299058,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237825,
+  "lat": 57.8227703,
+  "lon": 28.3298312,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237826,
+  "lat": 57.8230127,
+  "lon": 28.3296263,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237827,
+  "lat": 57.8232392,
+  "lon": 28.3294551,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237830,
+  "lat": 57.8237082,
+  "lon": 28.3290798,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237835,
+  "lat": 57.8242478,
+  "lon": 28.3282467,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237839,
+  "lat": 57.8234550,
+  "lon": 28.3292761,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237843,
+  "lat": 57.8244456,
+  "lon": 28.3272633,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237844,
+  "lat": 57.8244546,
+  "lon": 28.3280389,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237853,
+  "lat": 57.8245875,
+  "lon": 28.3277256,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237854,
+  "lat": 57.8245720,
+  "lon": 28.3277658,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237856,
+  "lat": 57.8246468,
+  "lon": 28.3275873,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237858,
+  "lat": 57.8246866,
+  "lon": 28.3275069,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237859,
+  "lat": 57.8246044,
+  "lon": 28.3276280,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237862,
+  "lat": 57.8246316,
+  "lon": 28.3275912,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237864,
+  "lat": 57.8246958,
+  "lon": 28.3274835,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237868,
+  "lat": 57.8247053,
+  "lon": 28.3269917,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237872,
+  "lat": 57.8247754,
+  "lon": 28.3273051,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2647237874,
+  "lat": 57.8249193,
+  "lon": 28.3269031,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 2706818185,
+  "lat": 57.8287478,
+  "lon": 28.3438474,
+  "tags": {
+    "amenity": "drinking_water",
+    "check_date": "2024-04-14"
+  }
+},
+{
+  "type": "node",
+  "id": 2780392233,
+  "lat": 57.8237681,
+  "lon": 28.3445789,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 2974089471,
+  "lat": 57.8288539,
+  "lon": 28.3344900,
+  "tags": {
+    "amenity": "drinking_water",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2974089472,
+  "lat": 57.8294955,
+  "lon": 28.3284505,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 2974626130,
+  "lat": 57.8145288,
+  "lon": 28.3377012,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 2974626131,
+  "lat": 57.8146489,
+  "lon": 28.3378322,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 2974626132,
+  "lat": 57.8147192,
+  "lon": 28.3380056,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 2974626133,
+  "lat": 57.8146373,
+  "lon": 28.3380214,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 2974626134,
+  "lat": 57.8145152,
+  "lon": 28.3380869,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 2974626135,
+  "lat": 57.8151141,
+  "lon": 28.3374465,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3039130324,
+  "lat": 57.8176835,
+  "lon": 28.3296357,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers"
+  }
+},
+{
+  "type": "node",
+  "id": 3090809342,
+  "lat": 57.8257138,
+  "lon": 28.3264313,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3090809343,
+  "lat": 57.8256627,
+  "lon": 28.3263939,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3090809348,
+  "lat": 57.8244999,
+  "lon": 28.3292774,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3090809349,
+  "lat": 57.8244844,
+  "lon": 28.3293213,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726955,
+  "lat": 57.8170920,
+  "lon": 28.3375432,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726957,
+  "lat": 57.8170999,
+  "lon": 28.3374638,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726958,
+  "lat": 57.8171162,
+  "lon": 28.3375743,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726960,
+  "lat": 57.8171215,
+  "lon": 28.3374050,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726961,
+  "lat": 57.8171393,
+  "lon": 28.3373561,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726962,
+  "lat": 57.8171413,
+  "lon": 28.3376064,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726963,
+  "lat": 57.8171595,
+  "lon": 28.3373011,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726965,
+  "lat": 57.8171784,
+  "lon": 28.3376541,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726967,
+  "lat": 57.8171971,
+  "lon": 28.3372349,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726968,
+  "lat": 57.8172027,
+  "lon": 28.3376852,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726969,
+  "lat": 57.8172213,
+  "lon": 28.3372661,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726970,
+  "lat": 57.8172277,
+  "lon": 28.3377174,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726971,
+  "lat": 57.8172464,
+  "lon": 28.3372982,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726975,
+  "lat": 57.8172835,
+  "lon": 28.3373458,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726980,
+  "lat": 57.8173078,
+  "lon": 28.3373770,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3110726982,
+  "lat": 57.8173328,
+  "lon": 28.3374091,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3138440190,
+  "lat": 57.8257131,
+  "lon": 28.3259086,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3138440195,
+  "lat": 57.8260273,
+  "lon": 28.3252368,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3138440196,
+  "lat": 57.8264545,
+  "lon": 28.3244375,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137012,
+  "lat": 57.8236897,
+  "lon": 28.3300915,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137013,
+  "lat": 57.8236876,
+  "lon": 28.3300931,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137014,
+  "lat": 57.8239129,
+  "lon": 28.3299343,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137015,
+  "lat": 57.8239174,
+  "lon": 28.3299314,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137016,
+  "lat": 57.8241446,
+  "lon": 28.3297557,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137017,
+  "lat": 57.8241425,
+  "lon": 28.3297579,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137018,
+  "lat": 57.8243420,
+  "lon": 28.3295412,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137019,
+  "lat": 57.8243398,
+  "lon": 28.3295453,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137020,
+  "lat": 57.8244568,
+  "lon": 28.3293680,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137021,
+  "lat": 57.8244999,
+  "lon": 28.3294253,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137022,
+  "lat": 57.8253922,
+  "lon": 28.3280619,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137023,
+  "lat": 57.8253884,
+  "lon": 28.3280707,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137024,
+  "lat": 57.8254509,
+  "lon": 28.3279195,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137025,
+  "lat": 57.8254472,
+  "lon": 28.3279288,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137026,
+  "lat": 57.8255349,
+  "lon": 28.3276649,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3170137027,
+  "lat": 57.8255314,
+  "lon": 28.3276766,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 3512890718,
+  "lat": 57.8184913,
+  "lon": 28.3351889,
+  "tags": {
+    "man_made": "flagpole"
+  }
+},
+{
+  "type": "node",
+  "id": 3512890731,
+  "lat": 57.8188597,
+  "lon": 28.3340643,
+  "tags": {
+    "description": "Университетский сквер. Заложен в честь 70-ти летия Победы в Великой Отечественной войне. 9.05.2015",
+    "historic": "memorial",
+    "memorial": "stone"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036380,
+  "lat": 57.8206762,
+  "lon": 28.3378540,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036384,
+  "lat": 57.8208169,
+  "lon": 28.3392923,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036393,
+  "lat": 57.8208340,
+  "lon": 28.3362533,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036394,
+  "lat": 57.8207761,
+  "lon": 28.3375116,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036397,
+  "lat": 57.8208519,
+  "lon": 28.3319281,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036398,
+  "lat": 57.8208195,
+  "lon": 28.3378036,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036399,
+  "lat": 57.8207955,
+  "lon": 28.3376328,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036400,
+  "lat": 57.8207995,
+  "lon": 28.3374391,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036412,
+  "lat": 57.8208911,
+  "lon": 28.3362935,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036414,
+  "lat": 57.8208943,
+  "lon": 28.3350923,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036422,
+  "lat": 57.8208770,
+  "lon": 28.3385513,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036423,
+  "lat": 57.8209474,
+  "lon": 28.3343523,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036426,
+  "lat": 57.8209468,
+  "lon": 28.3363351,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036430,
+  "lat": 57.8209230,
+  "lon": 28.3387741,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036438,
+  "lat": 57.8210193,
+  "lon": 28.3344506,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036440,
+  "lat": 57.8209993,
+  "lon": 28.3338084,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036444,
+  "lat": 57.8210179,
+  "lon": 28.3333682,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036446,
+  "lat": 57.8210515,
+  "lon": 28.3329519,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036447,
+  "lat": 57.8210746,
+  "lon": 28.3325488,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036448,
+  "lat": 57.8210539,
+  "lon": 28.3323143,
+  "tags": {
+    "highway": "street_lamp"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036455,
+  "lat": 57.8211441,
+  "lon": 28.3346510,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3687036459,
+  "lat": 57.8212024,
+  "lon": 28.3339803,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 3752526496,
+  "lat": 57.8223107,
+  "lon": 28.3394801,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 3768409093,
+  "lat": 57.8219650,
+  "lon": 28.3403234,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3820124432,
+  "lat": 57.8216134,
+  "lon": 28.3413034,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3820124433,
+  "lat": 57.8215446,
+  "lon": 28.3414073,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3820124434,
+  "lat": 57.8216523,
+  "lon": 28.3413805,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445077,
+  "lat": 57.8162977,
+  "lon": 28.3378740,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445078,
+  "lat": 57.8163693,
+  "lon": 28.3379660,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445079,
+  "lat": 57.8164313,
+  "lon": 28.3380324,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445080,
+  "lat": 57.8164833,
+  "lon": 28.3380943,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445081,
+  "lat": 57.8162456,
+  "lon": 28.3380233,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445082,
+  "lat": 57.8163160,
+  "lon": 28.3381089,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445083,
+  "lat": 57.8163949,
+  "lon": 28.3381985,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445084,
+  "lat": 57.8164530,
+  "lon": 28.3382665,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445085,
+  "lat": 57.8165588,
+  "lon": 28.3381578,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445086,
+  "lat": 57.8164981,
+  "lon": 28.3383239,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445087,
+  "lat": 57.8166438,
+  "lon": 28.3382490,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445088,
+  "lat": 57.8166664,
+  "lon": 28.3382783,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445089,
+  "lat": 57.8166924,
+  "lon": 28.3383076,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445090,
+  "lat": 57.8168173,
+  "lon": 28.3384574,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445091,
+  "lat": 57.8168433,
+  "lon": 28.3384883,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445092,
+  "lat": 57.8168650,
+  "lon": 28.3385177,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445093,
+  "lat": 57.8165788,
+  "lon": 28.3384167,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445094,
+  "lat": 57.8166065,
+  "lon": 28.3384509,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445095,
+  "lat": 57.8166334,
+  "lon": 28.3384802,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445096,
+  "lat": 57.8167644,
+  "lon": 28.3386365,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445097,
+  "lat": 57.8167912,
+  "lon": 28.3386658,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445098,
+  "lat": 57.8168181,
+  "lon": 28.3387000,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445099,
+  "lat": 57.8164469,
+  "lon": 28.3380536,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445100,
+  "lat": 57.8164998,
+  "lon": 28.3381171,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445101,
+  "lat": 57.8164383,
+  "lon": 28.3382487,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445102,
+  "lat": 57.8163803,
+  "lon": 28.3381815,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445103,
+  "lat": 57.8163561,
+  "lon": 28.3379492,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445104,
+  "lat": 57.8162839,
+  "lon": 28.3378582,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445105,
+  "lat": 57.8163040,
+  "lon": 28.3380945,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856445106,
+  "lat": 57.8162313,
+  "lon": 28.3380055,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3856629279,
+  "lat": 57.8206374,
+  "lon": 28.3381687,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856629280,
+  "lat": 57.8208390,
+  "lon": 28.3371246,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3856636576,
+  "lat": 57.8207009,
+  "lon": 28.3379257,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856636581,
+  "lat": 57.8206003,
+  "lon": 28.3377838,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856636582,
+  "lat": 57.8206139,
+  "lon": 28.3379271,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856672455,
+  "lat": 57.8207706,
+  "lon": 28.3390093,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856672456,
+  "lat": 57.8208614,
+  "lon": 28.3383005,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856673957,
+  "lat": 57.8209257,
+  "lon": 28.3383515,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856673977,
+  "lat": 57.8208148,
+  "lon": 28.3375502,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856673997,
+  "lat": 57.8208336,
+  "lon": 28.3380520,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856674008,
+  "lat": 57.8206709,
+  "lon": 28.3370888,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856674009,
+  "lat": 57.8207064,
+  "lon": 28.3371832,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3856674010,
+  "lat": 57.8207074,
+  "lon": 28.3369738,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3872379720,
+  "lat": 57.8205932,
+  "lon": 28.3373440,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3872379721,
+  "lat": 57.8207417,
+  "lon": 28.3369390,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3872379722,
+  "lat": 57.8207789,
+  "lon": 28.3369336,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3872379723,
+  "lat": 57.8206503,
+  "lon": 28.3369792,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 3872379750,
+  "lat": 57.8207401,
+  "lon": 28.3364720,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3872384747,
+  "lat": 57.8211395,
+  "lon": 28.3347767,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3872386864,
+  "lat": 57.8211521,
+  "lon": 28.3339770,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3872386870,
+  "lat": 57.8205849,
+  "lon": 28.3347757,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3872386871,
+  "lat": 57.8206477,
+  "lon": 28.3349378,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3872386872,
+  "lat": 57.8205328,
+  "lon": 28.3347507,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 3872386873,
+  "lat": 57.8211197,
+  "lon": 28.3328015,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3872387025,
+  "lat": 57.8211796,
+  "lon": 28.3339782,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4079517340,
+  "lat": 57.8172655,
+  "lon": 28.3200941,
+  "tags": {
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4079517341,
+  "lat": 57.8173085,
+  "lon": 28.3203508,
+  "tags": {
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4079517343,
+  "lat": 57.8173012,
+  "lon": 28.3201926,
+  "tags": {
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4359454791,
+  "lat": 57.8166604,
+  "lon": 28.3381193,
+  "tags": {
+    "name": "Информационный щит",
+    "name:ru": "Информационный щит",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4375473115,
+  "lat": 57.8202701,
+  "lon": 28.3301850,
+  "tags": {
+    "addr:city": "Псков",
+    "addr:housenumber": "4",
+    "addr:postcode": "180000",
+    "addr:street": "Кремль",
+    "information": "office",
+    "name": "Информационный центр",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4463709594,
+  "lat": 57.8257189,
+  "lon": 28.3258792,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4463709595,
+  "lat": 57.8264327,
+  "lon": 28.3244743,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4463736094,
+  "lat": 57.8268361,
+  "lon": 28.3235232,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4463770091,
+  "lat": 57.8260771,
+  "lon": 28.3252140,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4589712489,
+  "lat": 57.8255117,
+  "lon": 28.3337241,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 4667092358,
+  "lat": 57.8151824,
+  "lon": 28.3371744,
+  "tags": {
+    "artist_name": "И. В. Голубев",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Скобарь",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4808553360,
+  "lat": 57.8210151,
+  "lon": 28.3294299,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war",
+    "name": "Памятный знак в честь Ледового побоища",
+    "tourism": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330953,
+  "lat": 57.8231390,
+  "lon": 28.3367684,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330954,
+  "lat": 57.8232125,
+  "lon": 28.3368543,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330955,
+  "lat": 57.8231925,
+  "lon": 28.3367631,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330956,
+  "lat": 57.8231597,
+  "lon": 28.3367590,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330957,
+  "lat": 57.8232068,
+  "lon": 28.3368127,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330959,
+  "lat": 57.8229801,
+  "lon": 28.3364365,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330977,
+  "lat": 57.8233848,
+  "lon": 28.3369387,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330978,
+  "lat": 57.8232056,
+  "lon": 28.3367403,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330979,
+  "lat": 57.8230513,
+  "lon": 28.3365606,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330980,
+  "lat": 57.8229634,
+  "lon": 28.3365686,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330981,
+  "lat": 57.8229595,
+  "lon": 28.3364613,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330982,
+  "lat": 57.8229142,
+  "lon": 28.3365203,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330983,
+  "lat": 57.8229056,
+  "lon": 28.3375476,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330984,
+  "lat": 57.8232320,
+  "lon": 28.3371855,
+  "tags": {
+    "leaf_type": "needleleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330985,
+  "lat": 57.8232420,
+  "lon": 28.3370380,
+  "tags": {
+    "leaf_type": "needleleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330986,
+  "lat": 57.8231884,
+  "lon": 28.3371346,
+  "tags": {
+    "leaf_type": "needleleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330987,
+  "lat": 57.8230384,
+  "lon": 28.3376053,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330988,
+  "lat": 57.8229849,
+  "lon": 28.3372754,
+  "tags": {
+    "leaf_type": "needleleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330989,
+  "lat": 57.8230570,
+  "lon": 28.3373532,
+  "tags": {
+    "leaf_type": "needleleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330990,
+  "lat": 57.8229863,
+  "lon": 28.3374336,
+  "tags": {
+    "leaf_type": "needleleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330991,
+  "lat": 57.8227470,
+  "lon": 28.3369428,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330992,
+  "lat": 57.8228285,
+  "lon": 28.3370299,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330993,
+  "lat": 57.8228713,
+  "lon": 28.3368985,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4823330994,
+  "lat": 57.8228163,
+  "lon": 28.3366638,
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 4970448255,
+  "lat": 57.8223219,
+  "lon": 28.3302054,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4970448256,
+  "lat": 57.8222774,
+  "lon": 28.3302662,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 5692558218,
+  "lat": 57.8272011,
+  "lon": 28.3449929,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 5715770022,
+  "lat": 57.8207078,
+  "lon": 28.3350455,
+  "tags": {
+    "name": "Вид на Кремль",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6008437713,
+  "lat": 57.8183378,
+  "lon": 28.3208848,
+  "tags": {
+    "man_made": "surveillance"
+  }
+},
+{
+  "type": "node",
+  "id": 6014764315,
+  "lat": 57.8214259,
+  "lon": 28.3426348,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 6014764316,
+  "lat": 57.8214281,
+  "lon": 28.3427245,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 6499504487,
+  "lat": 57.8145592,
+  "lon": 28.3352624,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 6803941951,
+  "lat": 57.8174628,
+  "lon": 28.3340712,
+  "tags": {
+    "artwork_type": "sculpture",
+    "name": "Почтовый тракт Рига-Москва",
+    "name:en": "Postal route Riga-Moscow",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6803941952,
+  "lat": 57.8183671,
+  "lon": 28.3332000,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Первым жертвам фашистской оккупации Пскова в 1941 г."
+  }
+},
+{
+  "type": "node",
+  "id": 8027202952,
+  "lat": 57.8240581,
+  "lon": 28.3335844,
+  "tags": {
+    "artist_name": "Владимир Шуляковский",
+    "artwork_type": "sculpture",
+    "name": "Вечевой колокол",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 8405054317,
+  "lat": 57.8163868,
+  "lon": 28.3375929,
+  "tags": {
+    "email": "infopunktpskov@yandex.ru",
+    "name": "Туристский информационный центр Псковской области",
+    "name:en": "Tourist center",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa-Su 10:00-17:00",
+    "phone": "+7(953)2425700",
+    "tourism": "information",
+    "website": "https://visit.pskov.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8825322422,
+  "lat": 57.8246079,
+  "lon": 28.3325169,
+  "tags": {
+    "historic": "memorial",
+    "name": "Столб электропередач начала XX века"
+  }
+},
+{
+  "type": "node",
+  "id": 8844715704,
+  "lat": 57.8263947,
+  "lon": 28.3259797,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 8844754783,
+  "lat": 57.8263601,
+  "lon": 28.3260031,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 8844762264,
+  "lat": 57.8263828,
+  "lon": 28.3259882,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 8844763648,
+  "lat": 57.8263490,
+  "lon": 28.3260082,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 9383802561,
+  "lat": 57.8221343,
+  "lon": 28.3318426,
+  "tags": {
+    "camera:direction": "270",
+    "camera:type": "fixed",
+    "contact:webcam": "https://pskovinfo.ru/cams/2-veb-kamery-pskov-zolotaja-naberezhnaja.html",
+    "man_made": "surveillance",
+    "name": "Псков, Золотая набережная",
+    "name:nl": "Pskov, Golden embankment",
+    "surveillance": "webcam",
+    "surveillance:type": "camera",
+    "surveillance:zone": "building"
+  }
+},
+{
+  "type": "node",
+  "id": 9732490229,
+  "lat": 57.8217807,
+  "lon": 28.3310956,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9732490230,
+  "lat": 57.8229024,
+  "lon": 28.3298309,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9732490233,
+  "lat": 57.8222992,
+  "lon": 28.3302225,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9732490234,
+  "lat": 57.8247389,
+  "lon": 28.3275966,
+  "tags": {
+    "direction": "N",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835900,
+  "lat": 57.8239090,
+  "lon": 28.3274317,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835901,
+  "lat": 57.8223092,
+  "lon": 28.3281854,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835902,
+  "lat": 57.8224449,
+  "lon": 28.3281130,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835903,
+  "lat": 57.8225463,
+  "lon": 28.3280110,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835904,
+  "lat": 57.8226935,
+  "lon": 28.3290544,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835905,
+  "lat": 57.8225421,
+  "lon": 28.3288318,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835906,
+  "lat": 57.8224335,
+  "lon": 28.3288586,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835907,
+  "lat": 57.8225778,
+  "lon": 28.3291000,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835908,
+  "lat": 57.8233848,
+  "lon": 28.3287460,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835909,
+  "lat": 57.8229634,
+  "lon": 28.3283409,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835910,
+  "lat": 57.8233177,
+  "lon": 28.3283007,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835911,
+  "lat": 57.8236005,
+  "lon": 28.3278662,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835912,
+  "lat": 57.8234891,
+  "lon": 28.3278823,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835913,
+  "lat": 57.8233605,
+  "lon": 28.3279681,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835914,
+  "lat": 57.8232491,
+  "lon": 28.3279976,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835915,
+  "lat": 57.8232305,
+  "lon": 28.3275309,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9732835916,
+  "lat": 57.8233305,
+  "lon": 28.3274505,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9739978471,
+  "lat": 57.8207037,
+  "lon": 28.3291134,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 9962230717,
+  "lat": 57.8209050,
+  "lon": 28.3153267,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10121215022,
+  "lat": 57.8179107,
+  "lon": 28.3348013,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Силину А.С."
+  }
+},
+{
+  "type": "node",
+  "id": 10244854987,
+  "lat": 57.8191631,
+  "lon": 28.3153188,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854988,
+  "lat": 57.8191688,
+  "lon": 28.3157104,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854989,
+  "lat": 57.8190695,
+  "lon": 28.3157440,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854990,
+  "lat": 57.8186981,
+  "lon": 28.3154033,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854991,
+  "lat": 57.8184952,
+  "lon": 28.3154100,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854992,
+  "lat": 57.8185623,
+  "lon": 28.3158606,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854993,
+  "lat": 57.8186481,
+  "lon": 28.3158285,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854994,
+  "lat": 57.8188980,
+  "lon": 28.3157815,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854995,
+  "lat": 57.8189317,
+  "lon": 28.3159116,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854996,
+  "lat": 57.8186580,
+  "lon": 28.3159854,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854997,
+  "lat": 57.8182209,
+  "lon": 28.3177140,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854998,
+  "lat": 57.8182038,
+  "lon": 28.3175518,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244854999,
+  "lat": 57.8181295,
+  "lon": 28.3171494,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855000,
+  "lat": 57.8181166,
+  "lon": 28.3169617,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855001,
+  "lat": 57.8180352,
+  "lon": 28.3155897,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855002,
+  "lat": 57.8179845,
+  "lon": 28.3147341,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855003,
+  "lat": 57.8179916,
+  "lon": 28.3148119,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855004,
+  "lat": 57.8180002,
+  "lon": 28.3151177,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855005,
+  "lat": 57.8179713,
+  "lon": 28.3146127,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855006,
+  "lat": 57.8179613,
+  "lon": 28.3144330,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855007,
+  "lat": 57.8180109,
+  "lon": 28.3122665,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244855008,
+  "lat": 57.8186623,
+  "lon": 28.3120921,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244895809,
+  "lat": 57.8185223,
+  "lon": 28.3121243,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244895810,
+  "lat": 57.8183609,
+  "lon": 28.3121484,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244895811,
+  "lat": 57.8182423,
+  "lon": 28.3121860,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244895818,
+  "lat": 57.8182395,
+  "lon": 28.3120787,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10244895819,
+  "lat": 57.8181423,
+  "lon": 28.3120975,
+  "tags": {
+    "denotation": "urban",
+    "height": "9",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 10731381605,
+  "lat": 57.8158973,
+  "lon": 28.3418252,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Памятник В.И. Ленину"
+  }
+},
+{
+  "type": "node",
+  "id": 10971082105,
+  "lat": 57.8271627,
+  "lon": 28.3369668,
+  "tags": {
+    "artwork_type": "graffiti",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 11375020772,
+  "lat": 57.8232767,
+  "lon": 28.3306852,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 11375020773,
+  "lat": 57.8233094,
+  "lon": 28.3307706,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 11375020774,
+  "lat": 57.8233493,
+  "lon": 28.3309369,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 11375020775,
+  "lat": 57.8234068,
+  "lon": 28.3311347,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 12032793701,
+  "lat": 57.8221490,
+  "lon": 28.3282933,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 12260667969,
+  "lat": 57.8143328,
+  "lon": 28.3318166,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 12260667970,
+  "lat": 57.8143469,
+  "lon": 28.3319893,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 12260667971,
+  "lat": 57.8144391,
+  "lon": 28.3319627,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 12260667972,
+  "lat": 57.8144250,
+  "lon": 28.3317900,
+  "tags": {
+    "natural": "tree"
+  }
+},
+{
+  "type": "node",
+  "id": 12479042404,
+  "lat": 57.8143798,
+  "lon": 28.3374615,
+  "tags": {
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Барсик Венечка",
+    "tourism": "artwork",
+    "website": "https://pskovkid.ru/skulptury-barsov/"
+  }
+},
+{
+  "type": "node",
+  "id": 12479070544,
+  "lat": 57.8172466,
+  "lon": 28.3387023,
+  "tags": {
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Барсик Валя",
+    "tourism": "artwork",
+    "website": "https://pskovkid.ru/skulptury-barsov/"
+  }
+},
+{
+  "type": "node",
+  "id": 12479070545,
+  "lat": 57.8175534,
+  "lon": 28.3340064,
+  "tags": {
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Барсик Афанасий",
+    "tourism": "artwork",
+    "website": "https://pskovkid.ru/skulptury-barsov/"
+  }
+},
+{
+  "type": "node",
+  "id": 12731550867,
+  "lat": 57.8207929,
+  "lon": 28.3283074,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers"
+  }
+},
+{
+  "type": "node",
+  "id": 12923613504,
+  "lat": 57.8286995,
+  "lon": 28.3226117,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Водомат",
+    "operator": "Кристальная капля"
+  }
+},
+{
+  "type": "node",
+  "id": 13412966505,
+  "lat": 57.8264335,
+  "lon": 28.3377585,
+  "tags": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "blue_plaque",
+    "name": "Ю.А.Ширяев"
+  }
+},
+{
+  "type": "way",
+  "id": 67736096,
+  "bounds": {
+    "minlat": 57.8213700,
+    "minlon": 28.3268106,
+    "maxlat": 57.8241256,
+    "maxlon": 28.3284188
+  },
+  "nodes": [
+    817892598,
+    2647560057,
+    817892577,
+    2647560033,
+    817892621,
+    9732868046,
+    825308434,
+    825308452
+  ],
+  "geometry": [
+    { "lat": 57.8241256, "lon": 28.3268106 },
+    { "lat": 57.8233103, "lon": 28.3272330 },
+    { "lat": 57.8226569, "lon": 28.3277142 },
+    { "lat": 57.8221515, "lon": 28.3280961 },
+    { "lat": 57.8218628, "lon": 28.3282709 },
+    { "lat": 57.8216900, "lon": 28.3283530 },
+    { "lat": 57.8215651, "lon": 28.3283441 },
+    { "lat": 57.8213700, "lon": 28.3284188 }
+  ],
+  "tags": {
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 68666633,
+  "bounds": {
+    "minlat": 57.8211526,
+    "minlon": 28.3284338,
+    "maxlat": 57.8213518,
+    "maxlon": 28.3286293
+  },
+  "nodes": [
+    825308456,
+    825308424
+  ],
+  "geometry": [
+    { "lat": 57.8213518, "lon": 28.3284338 },
+    { "lat": 57.8211526, "lon": 28.3286293 }
+  ],
+  "tags": {
+    "barrier": "retaining_wall"
+  }
+},
+{
+  "type": "way",
+  "id": 79630600,
+  "bounds": {
+    "minlat": 57.8174686,
+    "minlon": 28.3306152,
+    "maxlat": 57.8182233,
+    "maxlon": 28.3308947
+  },
+  "nodes": [
+    929218919,
+    929218911
+  ],
+  "geometry": [
+    { "lat": 57.8182233, "lon": 28.3306152 },
+    { "lat": 57.8174686, "lon": 28.3308947 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 79630603,
+  "bounds": {
+    "minlat": 57.8173408,
+    "minlon": 28.3303057,
+    "maxlat": 57.8177565,
+    "maxlon": 28.3304745
+  },
+  "nodes": [
+    929218917,
+    929218910
+  ],
+  "geometry": [
+    { "lat": 57.8177565, "lon": 28.3303057 },
+    { "lat": 57.8173408, "lon": 28.3304745 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 79630608,
+  "bounds": {
+    "minlat": 57.8169435,
+    "minlon": 28.3305193,
+    "maxlat": 57.8172485,
+    "maxlon": 28.3306459
+  },
+  "nodes": [
+    929218914,
+    2847872313
+  ],
+  "geometry": [
+    { "lat": 57.8172485, "lon": 28.3305193 },
+    { "lat": 57.8169435, "lon": 28.3306459 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80231134,
+  "bounds": {
+    "minlat": 57.8177421,
+    "minlon": 28.3193289,
+    "maxlat": 57.8179310,
+    "maxlon": 28.3193821
+  },
+  "nodes": [
+    936364145,
+    936364142
+  ],
+  "geometry": [
+    { "lat": 57.8177421, "lon": 28.3193821 },
+    { "lat": 57.8179310, "lon": 28.3193289 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80231135,
+  "bounds": {
+    "minlat": 57.8171152,
+    "minlon": 28.3200396,
+    "maxlat": 57.8171641,
+    "maxlon": 28.3206115
+  },
+  "nodes": [
+    936364144,
+    936364141
+  ],
+  "geometry": [
+    { "lat": 57.8171641, "lon": 28.3206115 },
+    { "lat": 57.8171152, "lon": 28.3200396 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80231137,
+  "bounds": {
+    "minlat": 57.8180581,
+    "minlon": 28.3193300,
+    "maxlat": 57.8181792,
+    "maxlon": 28.3208031
+  },
+  "nodes": [
+    936364129,
+    936364124
+  ],
+  "geometry": [
+    { "lat": 57.8180581, "lon": 28.3193300 },
+    { "lat": 57.8181792, "lon": 28.3208031 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80231138,
+  "bounds": {
+    "minlat": 57.8170358,
+    "minlon": 28.3207773,
+    "maxlat": 57.8170650,
+    "maxlon": 28.3211149
+  },
+  "nodes": [
+    936364126,
+    936364120
+  ],
+  "geometry": [
+    { "lat": 57.8170358, "lon": 28.3207773 },
+    { "lat": 57.8170650, "lon": 28.3211149 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80231141,
+  "bounds": {
+    "minlat": 57.8169481,
+    "minlon": 28.3196009,
+    "maxlat": 57.8169797,
+    "maxlon": 28.3199667
+  },
+  "nodes": [
+    936364148,
+    936364140
+  ],
+  "geometry": [
+    { "lat": 57.8169481, "lon": 28.3196009 },
+    { "lat": 57.8169797, "lon": 28.3199667 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80231142,
+  "bounds": {
+    "minlat": 57.8173272,
+    "minlon": 28.3194078,
+    "maxlat": 57.8176576,
+    "maxlon": 28.3194872
+  },
+  "nodes": [
+    936364134,
+    936364133
+  ],
+  "geometry": [
+    { "lat": 57.8173272, "lon": 28.3194872 },
+    { "lat": 57.8176576, "lon": 28.3194078 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80231143,
+  "bounds": {
+    "minlat": 57.8171566,
+    "minlon": 28.3208972,
+    "maxlat": 57.8179432,
+    "maxlon": 28.3211321
+  },
+  "nodes": [
+    936364128,
+    936364123
+  ],
+  "geometry": [
+    { "lat": 57.8179432, "lon": 28.3208972 },
+    { "lat": 57.8171566, "lon": 28.3211321 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 80864565,
+  "bounds": {
+    "minlat": 57.8178526,
+    "minlon": 28.3167587,
+    "maxlat": 57.8180310,
+    "maxlon": 28.3190366
+  },
+  "nodes": [
+    942717740,
+    942717784
+  ],
+  "geometry": [
+    { "lat": 57.8178526, "lon": 28.3167587 },
+    { "lat": 57.8180310, "lon": 28.3190366 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 100482746,
+  "bounds": {
+    "minlat": 57.8182345,
+    "minlon": 28.3299721,
+    "maxlat": 57.8185402,
+    "maxlon": 28.3300999
+  },
+  "nodes": [
+    1161581837,
+    1161581833
+  ],
+  "geometry": [
+    { "lat": 57.8185402, "lon": 28.3299721 },
+    { "lat": 57.8182345, "lon": 28.3300999 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 100482748,
+  "bounds": {
+    "minlat": 57.8178324,
+    "minlon": 28.3301162,
+    "maxlat": 57.8181864,
+    "maxlon": 28.3302619
+  },
+  "nodes": [
+    1161581828,
+    1161581848
+  ],
+  "geometry": [
+    { "lat": 57.8181864, "lon": 28.3301162 },
+    { "lat": 57.8178324, "lon": 28.3302619 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 100482749,
+  "bounds": {
+    "minlat": 57.8165382,
+    "minlon": 28.3311147,
+    "maxlat": 57.8168675,
+    "maxlon": 28.3312440
+  },
+  "nodes": [
+    929218909,
+    2847872309
+  ],
+  "geometry": [
+    { "lat": 57.8168675, "lon": 28.3311147 },
+    { "lat": 57.8165382, "lon": 28.3312440 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 100643844,
+  "bounds": {
+    "minlat": 57.8185950,
+    "minlon": 28.3220951,
+    "maxlat": 57.8186236,
+    "maxlon": 28.3224667
+  },
+  "nodes": [
+    1163463063,
+    3662171843
+  ],
+  "geometry": [
+    { "lat": 57.8185950, "lon": 28.3220951 },
+    { "lat": 57.8186236, "lon": 28.3224667 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 280728521,
+  "bounds": {
+    "minlat": 57.8169090,
+    "minlon": 28.3307259,
+    "maxlat": 57.8172670,
+    "maxlon": 28.3310670
+  },
+  "nodes": [
+    2847872312,
+    929218923,
+    929218920
+  ],
+  "geometry": [
+    { "lat": 57.8169090, "lon": 28.3307259 },
+    { "lat": 57.8169440, "lon": 28.3310670 },
+    { "lat": 57.8172670, "lon": 28.3309406 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 280728522,
+  "bounds": {
+    "minlat": 57.8164032,
+    "minlon": 28.3307274,
+    "maxlat": 57.8167161,
+    "maxlon": 28.3312717
+  },
+  "nodes": [
+    2847872308,
+    929218906,
+    929218902,
+    929218916
+  ],
+  "geometry": [
+    { "lat": 57.8164713, "lon": 28.3312603 },
+    { "lat": 57.8164422, "lon": 28.3312717 },
+    { "lat": 57.8164032, "lon": 28.3308662 },
+    { "lat": 57.8167161, "lon": 28.3307274 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 299833148,
+  "bounds": {
+    "minlat": 57.8105236,
+    "minlon": 28.3303863,
+    "maxlat": 57.8161565,
+    "maxlon": 28.3310727
+  },
+  "nodes": [
+    3039130298,
+    3039130293,
+    3039130291,
+    3039130290,
+    3039130288,
+    3039130287,
+    3039130283,
+    3039130281,
+    3039130279,
+    3039130252,
+    3039130247,
+    3039130244,
+    3039130242,
+    3039130239
+  ],
+  "geometry": [
+    { "lat": 57.8161565, "lon": 28.3303863 },
+    { "lat": 57.8150798, "lon": 28.3306118 },
+    { "lat": 57.8144668, "lon": 28.3307440 },
+    { "lat": 57.8139838, "lon": 28.3307583 },
+    { "lat": 57.8137326, "lon": 28.3307737 },
+    { "lat": 57.8134261, "lon": 28.3308010 },
+    { "lat": 57.8133474, "lon": 28.3308632 },
+    { "lat": 57.8132148, "lon": 28.3309954 },
+    { "lat": 57.8122601, "lon": 28.3310727 },
+    { "lat": 57.8120272, "lon": 28.3309911 },
+    { "lat": 57.8117932, "lon": 28.3309483 },
+    { "lat": 57.8110351, "lon": 28.3309600 },
+    { "lat": 57.8107286, "lon": 28.3309405 },
+    { "lat": 57.8105236, "lon": 28.3309911 }
+  ],
+  "tags": {
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 299833157,
+  "bounds": {
+    "minlat": 57.8164748,
+    "minlon": 28.3294926,
+    "maxlat": 57.8184182,
+    "maxlon": 28.3303027
+  },
+  "nodes": [
+    3039130326,
+    3039130321,
+    3039130320,
+    3039130314
+  ],
+  "geometry": [
+    { "lat": 57.8184182, "lon": 28.3294926 },
+    { "lat": 57.8173445, "lon": 28.3299683 },
+    { "lat": 57.8171768, "lon": 28.3300227 },
+    { "lat": 57.8164748, "lon": 28.3303027 }
+  ],
+  "tags": {
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 361786746,
+  "bounds": {
+    "minlat": 57.8186582,
+    "minlon": 28.3225181,
+    "maxlat": 57.8187484,
+    "maxlon": 28.3240871
+  },
+  "nodes": [
+    3662171845,
+    1163463087,
+    1163463000
+  ],
+  "geometry": [
+    { "lat": 57.8186582, "lon": 28.3225181 },
+    { "lat": 57.8187484, "lon": 28.3236918 },
+    { "lat": 57.8187460, "lon": 28.3240871 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 363729674,
+  "bounds": {
+    "minlat": 57.8195447,
+    "minlon": 28.3333551,
+    "maxlat": 57.8198098,
+    "maxlon": 28.3334288
+  },
+  "nodes": [
+    3678689744,
+    3678689750
+  ],
+  "geometry": [
+    { "lat": 57.8195447, "lon": 28.3334288 },
+    { "lat": 57.8198098, "lon": 28.3333551 }
+  ],
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree_row"
+  }
+},
+{
+  "type": "way",
+  "id": 363729676,
+  "bounds": {
+    "minlat": 57.8189662,
+    "minlon": 28.3335138,
+    "maxlat": 57.8192334,
+    "maxlon": 28.3335880
+  },
+  "nodes": [
+    3678689730,
+    3678689733
+  ],
+  "geometry": [
+    { "lat": 57.8189662, "lon": 28.3335880 },
+    { "lat": 57.8192334, "lon": 28.3335138 }
+  ],
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree_row"
+  }
+},
+{
+  "type": "way",
+  "id": 405797547,
+  "bounds": {
+    "minlat": 57.8170275,
+    "minlon": 28.3195385,
+    "maxlat": 57.8171257,
+    "maxlon": 28.3195669
+  },
+  "nodes": [
+    4079517322,
+    4079517324
+  ],
+  "geometry": [
+    { "lat": 57.8170275, "lon": 28.3195669 },
+    { "lat": 57.8171257, "lon": 28.3195385 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 405797548,
+  "bounds": {
+    "minlat": 57.8171764,
+    "minlon": 28.3194969,
+    "maxlat": 57.8172747,
+    "maxlon": 28.3195253
+  },
+  "nodes": [
+    4079517328,
+    4079517331
+  ],
+  "geometry": [
+    { "lat": 57.8171764, "lon": 28.3195253 },
+    { "lat": 57.8172747, "lon": 28.3194969 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152843,
+  "bounds": {
+    "minlat": 57.8227685,
+    "minlon": 28.3367403,
+    "maxlat": 57.8227956,
+    "maxlon": 28.3368623
+  },
+  "nodes": [
+    4823330961,
+    4823330960
+  ],
+  "geometry": [
+    { "lat": 57.8227956, "lon": 28.3368623 },
+    { "lat": 57.8227685, "lon": 28.3367403 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152844,
+  "bounds": {
+    "minlat": 57.8233773,
+    "minlon": 28.3368355,
+    "maxlat": 57.8234280,
+    "maxlon": 28.3370179
+  },
+  "nodes": [
+    4823330964,
+    4823330963,
+    4823330962
+  ],
+  "geometry": [
+    { "lat": 57.8233773, "lon": 28.3370179 },
+    { "lat": 57.8234280, "lon": 28.3368958 },
+    { "lat": 57.8234259, "lon": 28.3368355 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152846,
+  "bounds": {
+    "minlat": 57.8230802,
+    "minlon": 28.3363299,
+    "maxlat": 57.8233952,
+    "maxlon": 28.3367751
+  },
+  "nodes": [
+    4823330966,
+    4823330965
+  ],
+  "geometry": [
+    { "lat": 57.8233952, "lon": 28.3367751 },
+    { "lat": 57.8230802, "lon": 28.3363299 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152847,
+  "bounds": {
+    "minlat": 57.8230188,
+    "minlon": 28.3367899,
+    "maxlat": 57.8231638,
+    "maxlon": 28.3369401
+  },
+  "nodes": [
+    4823330968,
+    4823330967
+  ],
+  "geometry": [
+    { "lat": 57.8230188, "lon": 28.3367899 },
+    { "lat": 57.8231638, "lon": 28.3369401 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152849,
+  "bounds": {
+    "minlat": 57.8229531,
+    "minlon": 28.3375999,
+    "maxlat": 57.8229845,
+    "maxlon": 28.3377474
+  },
+  "nodes": [
+    4823330970,
+    4823330969
+  ],
+  "geometry": [
+    { "lat": 57.8229845, "lon": 28.3377474 },
+    { "lat": 57.8229531, "lon": 28.3375999 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152850,
+  "bounds": {
+    "minlat": 57.8228367,
+    "minlon": 28.3370568,
+    "maxlat": 57.8228631,
+    "maxlon": 28.3371761
+  },
+  "nodes": [
+    4823330972,
+    4823330971
+  ],
+  "geometry": [
+    { "lat": 57.8228631, "lon": 28.3371761 },
+    { "lat": 57.8228367, "lon": 28.3370568 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152852,
+  "bounds": {
+    "minlat": 57.8228660,
+    "minlon": 28.3369240,
+    "maxlat": 57.8229160,
+    "maxlon": 28.3371560
+  },
+  "nodes": [
+    4823330974,
+    4823330973
+  ],
+  "geometry": [
+    { "lat": 57.8229160, "lon": 28.3371560 },
+    { "lat": 57.8228660, "lon": 28.3369240 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 490152853,
+  "bounds": {
+    "minlat": 57.8230446,
+    "minlon": 28.3370863,
+    "maxlat": 57.8233516,
+    "maxlon": 28.3378613
+  },
+  "nodes": [
+    4823330976,
+    4823330975
+  ],
+  "geometry": [
+    { "lat": 57.8233516, "lon": 28.3370863 },
+    { "lat": 57.8230446, "lon": 28.3378613 }
+  ],
+  "tags": {
+    "barrier": "hedge"
+  }
+},
+{
+  "type": "way",
+  "id": 637492494,
+  "bounds": {
+    "minlat": 57.8204180,
+    "minlon": 28.3317351,
+    "maxlat": 57.8212294,
+    "maxlon": 28.3413137
+  },
+  "nodes": [
+    6009865158,
+    6009865157,
+    6009865156,
+    6009865155,
+    6009865154,
+    6009865153,
+    6009865152,
+    6009865151,
+    6009865150,
+    6009865149,
+    6009865148,
+    6009865147,
+    6009865146,
+    6009865145,
+    6009865144,
+    6009865143,
+    6009865142,
+    6009865141,
+    6009865140,
+    6009865139,
+    6009865138,
+    6009865137,
+    6009865136,
+    6009865135,
+    6009865175,
+    6009865174,
+    6009865134
+  ],
+  "geometry": [
+    { "lat": 57.8212294, "lon": 28.3413137 },
+    { "lat": 57.8212075, "lon": 28.3411331 },
+    { "lat": 57.8210607, "lon": 28.3407467 },
+    { "lat": 57.8209190, "lon": 28.3404869 },
+    { "lat": 57.8207469, "lon": 28.3399611 },
+    { "lat": 57.8206845, "lon": 28.3397045 },
+    { "lat": 57.8205158, "lon": 28.3388081 },
+    { "lat": 57.8204180, "lon": 28.3382664 },
+    { "lat": 57.8204298, "lon": 28.3378768 },
+    { "lat": 57.8204264, "lon": 28.3374681 },
+    { "lat": 57.8204213, "lon": 28.3369296 },
+    { "lat": 57.8204669, "lon": 28.3366699 },
+    { "lat": 57.8205698, "lon": 28.3362613 },
+    { "lat": 57.8207267, "lon": 28.3358241 },
+    { "lat": 57.8207975, "lon": 28.3355042 },
+    { "lat": 57.8208127, "lon": 28.3351874 },
+    { "lat": 57.8207790, "lon": 28.3349689 },
+    { "lat": 57.8207064, "lon": 28.3347186 },
+    { "lat": 57.8206963, "lon": 28.3343860 },
+    { "lat": 57.8206795, "lon": 28.3338348 },
+    { "lat": 57.8206980, "lon": 28.3333755 },
+    { "lat": 57.8207132, "lon": 28.3326723 },
+    { "lat": 57.8207233, "lon": 28.3323809 },
+    { "lat": 57.8207959, "lon": 28.3321496 },
+    { "lat": 57.8209233, "lon": 28.3319595 },
+    { "lat": 57.8208006, "lon": 28.3317877 },
+    { "lat": 57.8206312, "lon": 28.3317351 }
+  ],
+  "tags": {
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 638140184,
+  "bounds": {
+    "minlat": 57.8209952,
+    "minlon": 28.3417508,
+    "maxlat": 57.8215966,
+    "maxlon": 28.3483104
+  },
+  "nodes": [
+    6014764295,
+    12901918503,
+    6014764296,
+    6014764297,
+    6014764298,
+    6014764299,
+    6014764300,
+    6014764301,
+    6014764302,
+    6014764303,
+    6014764304,
+    6014764305,
+    6014764306,
+    6014764307,
+    6014764308
+  ],
+  "geometry": [
+    { "lat": 57.8209952, "lon": 28.3483104 },
+    { "lat": 57.8210044, "lon": 28.3479915 },
+    { "lat": 57.8210364, "lon": 28.3477531 },
+    { "lat": 57.8211083, "lon": 28.3471322 },
+    { "lat": 57.8213343, "lon": 28.3461169 },
+    { "lat": 57.8214017, "lon": 28.3453693 },
+    { "lat": 57.8214020, "lon": 28.3449201 },
+    { "lat": 57.8215228, "lon": 28.3443931 },
+    { "lat": 57.8215966, "lon": 28.3440585 },
+    { "lat": 57.8215249, "lon": 28.3435624 },
+    { "lat": 57.8214614, "lon": 28.3430662 },
+    { "lat": 57.8215167, "lon": 28.3427278 },
+    { "lat": 57.8214983, "lon": 28.3424816 },
+    { "lat": 57.8213590, "lon": 28.3418162 },
+    { "lat": 57.8213344, "lon": 28.3417508 }
+  ],
+  "tags": {
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 746626312,
+  "bounds": {
+    "minlat": 57.8270313,
+    "minlon": 28.3226947,
+    "maxlat": 57.8270842,
+    "maxlon": 28.3228100
+  },
+  "nodes": [
+    6987058115,
+    6987058114,
+    6987058113,
+    6987058112,
+    6987058115
+  ],
+  "geometry": [
+    { "lat": 57.8270486, "lon": 28.3228100 },
+    { "lat": 57.8270842, "lon": 28.3227181 },
+    { "lat": 57.8270679, "lon": 28.3226947 },
+    { "lat": 57.8270313, "lon": 28.3227918 },
+    { "lat": 57.8270486, "lon": 28.3228100 }
+  ],
+  "tags": {
+    "emergency": "yes",
+    "man_made": "pier",
+    "name": "Подьезд к реке"
+  }
+},
+{
+  "type": "way",
+  "id": 1059312182,
+  "bounds": {
+    "minlat": 57.8193209,
+    "minlon": 28.3282900,
+    "maxlat": 57.8212550,
+    "maxlon": 28.3289605
+  },
+  "nodes": [
+    9732867352,
+    9732867351,
+    9732867350
+  ],
+  "geometry": [
+    { "lat": 57.8212550, "lon": 28.3282900 },
+    { "lat": 57.8205837, "lon": 28.3286172 },
+    { "lat": 57.8193209, "lon": 28.3289605 }
+  ],
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree_row"
+  }
+},
+{
+  "type": "way",
+  "id": 1059323916,
+  "bounds": {
+    "minlat": 57.8194737,
+    "minlon": 28.3309722,
+    "maxlat": 57.8201623,
+    "maxlon": 28.3311841
+  },
+  "nodes": [
+    9732950829,
+    9732950828
+  ],
+  "geometry": [
+    { "lat": 57.8201623, "lon": 28.3309722 },
+    { "lat": 57.8194737, "lon": 28.3311841 }
+  ],
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree_row"
+  }
+},
+{
+  "type": "way",
+  "id": 1059323917,
+  "bounds": {
+    "minlat": 57.8194537,
+    "minlon": 28.3311117,
+    "maxlat": 57.8201866,
+    "maxlon": 28.3313397
+  },
+  "nodes": [
+    9732950831,
+    9732950830
+  ],
+  "geometry": [
+    { "lat": 57.8201866, "lon": 28.3311117 },
+    { "lat": 57.8194537, "lon": 28.3313397 }
+  ],
+  "tags": {
+    "leaf_type": "broadleaved",
+    "natural": "tree_row"
+  }
+},
+{
+  "type": "way",
+  "id": 1120133767,
+  "bounds": {
+    "minlat": 57.8175309,
+    "minlon": 28.3083129,
+    "maxlat": 57.8178409,
+    "maxlon": 28.3121645
+  },
+  "nodes": [
+    10244895890,
+    10244895889
+  ],
+  "geometry": [
+    { "lat": 57.8175309, "lon": 28.3083129 },
+    { "lat": 57.8178409, "lon": 28.3121645 }
+  ],
+  "tags": {
+    "natural": "tree_row"
+  }
+},
+{
+  "type": "way",
+  "id": 1226677031,
+  "bounds": {
+    "minlat": 57.8229454,
+    "minlon": 28.3295617,
+    "maxlat": 57.8242553,
+    "maxlon": 28.3305368
+  },
+  "nodes": [
+    11375016768,
+    11375020769,
+    11375020770,
+    11375020771
+  ],
+  "geometry": [
+    { "lat": 57.8229454, "lon": 28.3305368 },
+    { "lat": 57.8234166, "lon": 28.3301829 },
+    { "lat": 57.8239038, "lon": 28.3298449 },
+    { "lat": 57.8242553, "lon": 28.3295617 }
+  ],
+  "tags": {
+    "natural": "tree_row"
+  }
+}
+
+  ]
+}

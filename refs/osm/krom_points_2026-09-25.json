@@ -1,0 +1,1758 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-25T07:45:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 462847809,
+  "lat": 57.8150550,
+  "lon": 28.3412673,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "С. М. Киров",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 462847813,
+  "lat": 57.8166031,
+  "lon": 28.3407461,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "М. И. Кутузов",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 464879943,
+  "lat": 57.8193015,
+  "lon": 28.3327997,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Ленин"
+  }
+},
+{
+  "type": "node",
+  "id": 801332027,
+  "lat": 57.8202187,
+  "lon": 28.3305452,
+  "tags": {
+    "access": "yes",
+    "barrier": "gate",
+    "opening_hours": "Mo-Su 06:00-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 801940943,
+  "lat": 57.8213131,
+  "lon": 28.3140379,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Памятник жертвам репрессий",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 803818497,
+  "lat": 57.8163039,
+  "lon": 28.3349277,
+  "tags": {
+    "description": "Памятник княгине Ольге, установлен к 1100-летию со дня основания города. Работа скульптора Вячеслава Клыкова",
+    "height": "4.5",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Памятник княгине Ольге",
+    "start_date": "2003",
+    "tourism": "attraction",
+    "wikidata": "Q4343518"
+  }
+},
+{
+  "type": "node",
+  "id": 806461975,
+  "lat": 57.8245724,
+  "lon": 28.3137218,
+  "tags": {
+    "barrier": "gate",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 806480488,
+  "lat": 57.8265884,
+  "lon": 28.3169679,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 806480489,
+  "lat": 57.8246080,
+  "lon": 28.3147181,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 807353507,
+  "lat": 57.8211570,
+  "lon": 28.3301895,
+  "tags": {
+    "barrier": "gate",
+    "historic": "city_gate",
+    "name": "Великие ворота"
+  }
+},
+{
+  "type": "node",
+  "id": 812834608,
+  "lat": 57.8198521,
+  "lon": 28.3161527,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 817072106,
+  "lat": 57.8229930,
+  "lon": 28.3208552,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 817127545,
+  "lat": 57.8211093,
+  "lon": 28.3204504,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 817127590,
+  "lat": 57.8206408,
+  "lon": 28.3208377,
+  "tags": {
+    "access": "private",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 817149536,
+  "lat": 57.8197978,
+  "lon": 28.3176324,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 829537672,
+  "lat": 57.8214109,
+  "lon": 28.3292996,
+  "tags": {
+    "historic": "memorial",
+    "man_made": "cross",
+    "memorial": "cross",
+    "name": "Крест памяти Благовещенского собора"
+  }
+},
+{
+  "type": "node",
+  "id": 924124135,
+  "lat": 57.8196765,
+  "lon": 28.3142554,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 924124150,
+  "lat": 57.8196039,
+  "lon": 28.3132339,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 924184497,
+  "lat": 57.8192413,
+  "lon": 28.3164329,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 925373861,
+  "lat": 57.8171995,
+  "lon": 28.3162258,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 929221376,
+  "lat": 57.8198114,
+  "lon": 28.3233367,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 929221391,
+  "lat": 57.8192053,
+  "lon": 28.3238646,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 936403613,
+  "lat": 57.8162438,
+  "lon": 28.3171248,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 936403624,
+  "lat": 57.8162101,
+  "lon": 28.3210468,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 938557540,
+  "lat": 57.8153492,
+  "lon": 28.3241475,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 939284173,
+  "lat": 57.8171334,
+  "lon": 28.3126247,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 939284235,
+  "lat": 57.8160742,
+  "lon": 28.3129352,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 946737021,
+  "lat": 57.8190289,
+  "lon": 28.3127988,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 971963126,
+  "lat": 57.8179700,
+  "lon": 28.3343962,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 977534852,
+  "lat": 57.8148483,
+  "lon": 28.3265269,
+  "tags": {
+    "description": "На этом месте во время войны находился концлагерь для военнопленных",
+    "historic": "memorial",
+    "name": "Памятный знак на месте \"Лазарета\""
+  }
+},
+{
+  "type": "node",
+  "id": 977545608,
+  "lat": 57.8151709,
+  "lon": 28.3265030,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 978608396,
+  "lat": 57.8147828,
+  "lon": 28.3184149,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 978608427,
+  "lat": 57.8148245,
+  "lon": 28.3190008,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 978608559,
+  "lat": 57.8144133,
+  "lon": 28.3179658,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 978608607,
+  "lat": 57.8143410,
+  "lon": 28.3180541,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 978608617,
+  "lat": 57.8145827,
+  "lon": 28.3155070,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 988766841,
+  "lat": 57.8220408,
+  "lon": 28.3150881,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 992005245,
+  "lat": 57.8169054,
+  "lon": 28.3307990,
+  "tags": {
+    "historic": "memorial",
+    "name": "Памятник финскому композитору Яну Сибелиусу"
+  }
+},
+{
+  "type": "node",
+  "id": 997657258,
+  "lat": 57.8169307,
+  "lon": 28.3162701,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 997657295,
+  "lat": 57.8150843,
+  "lon": 28.3196134,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 998181505,
+  "lat": 57.8203360,
+  "lon": 28.3247113,
+  "tags": {
+    "description": "Место, где св. Ольга предрекла: «Быть здесь великому и славному граду»",
+    "historic": "memorial",
+    "name": "Ольгин крест"
+  }
+},
+{
+  "type": "node",
+  "id": 1005457925,
+  "lat": 57.8199916,
+  "lon": 28.3188291,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1005458416,
+  "lat": 57.8201852,
+  "lon": 28.3196761,
+  "tags": {
+    "access": "destination",
+    "amenity": "waste_disposal",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1005458449,
+  "lat": 57.8201836,
+  "lon": 28.3182719,
+  "tags": {
+    "access": "yes",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1005458502,
+  "lat": 57.8205692,
+  "lon": 28.3182359,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1005458540,
+  "lat": 57.8195092,
+  "lon": 28.3191022,
+  "tags": {
+    "access": "private",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1005721610,
+  "lat": 57.8223350,
+  "lon": 28.3189323,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1005721618,
+  "lat": 57.8219176,
+  "lon": 28.3184171,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1005721635,
+  "lat": 57.8223997,
+  "lon": 28.3186832,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1083585260,
+  "lat": 57.8150635,
+  "lon": 28.3187653,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1083585278,
+  "lat": 57.8154021,
+  "lon": 28.3190540,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1089133355,
+  "lat": 57.8155463,
+  "lon": 28.3172197,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1089133362,
+  "lat": 57.8149753,
+  "lon": 28.3175204,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1093527938,
+  "lat": 57.8144391,
+  "lon": 28.3379759,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Два капитана",
+    "wikidata": "Q4155581"
+  }
+},
+{
+  "type": "node",
+  "id": 1096183162,
+  "lat": 57.8231410,
+  "lon": 28.3333120,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1115815150,
+  "lat": 57.8158059,
+  "lon": 28.3339161,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1115815157,
+  "lat": 57.8161301,
+  "lon": 28.3329295,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1116497866,
+  "lat": 57.8155442,
+  "lon": 28.3312815,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1116497882,
+  "lat": 57.8154918,
+  "lon": 28.3322592,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1116497895,
+  "lat": 57.8147809,
+  "lon": 28.3326722,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1116497908,
+  "lat": 57.8148842,
+  "lon": 28.3333943,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1116619821,
+  "lat": 57.8205833,
+  "lon": 28.3309829,
+  "tags": {
+    "barrier": "gate",
+    "historic": "city_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1116746611,
+  "lat": 57.8228236,
+  "lon": 28.3309049,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1116746625,
+  "lat": 57.8222950,
+  "lon": 28.3314664,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1139066866,
+  "lat": 57.8141168,
+  "lon": 28.3405145,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1139067203,
+  "lat": 57.8144519,
+  "lon": 28.3412958,
+  "tags": {
+    "description": "19 марта 1984 г. издан Указ Президиума Верховного Совета СССР \"О награждении города Пскова Орденом Трудового Красного Знамени ...\"",
+    "historic": "memorial",
+    "memorial": "plaque"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219497,
+  "lat": 57.8173616,
+  "lon": 28.3305962,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Арль"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219508,
+  "lat": 57.8182759,
+  "lon": 28.3303520,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Перт"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219551,
+  "lat": 57.8168294,
+  "lon": 28.3308251,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Куопио"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219564,
+  "lat": 57.8175610,
+  "lon": 28.3306755,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Белосток"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219580,
+  "lat": 57.8176891,
+  "lon": 28.3305995,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Гера"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219586,
+  "lat": 57.8180811,
+  "lon": 28.3303320,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Норртелье"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219656,
+  "lat": 57.8179818,
+  "lon": 28.3304007,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Неймеген"
+  }
+},
+{
+  "type": "node",
+  "id": 1139219659,
+  "lat": 57.8182587,
+  "lon": 28.3302327,
+  "tags": {
+    "description": "Город-побратим",
+    "historic": "memorial",
+    "name": "Нойс"
+  }
+},
+{
+  "type": "node",
+  "id": 1149024103,
+  "lat": 57.8173566,
+  "lon": 28.3354424,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1149051753,
+  "lat": 57.8173321,
+  "lon": 28.3417432,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1192521752,
+  "lat": 57.8179434,
+  "lon": 28.3356086,
+  "tags": {
+    "historic": "shield",
+    "name": "В этом доме с марта по июнь 1900 года жил В. И. Ленин. Здесь им был написан проект заявления редакции „Искры“ и „Зари“"
+  }
+},
+{
+  "type": "node",
+  "id": 1192522165,
+  "lat": 57.8176504,
+  "lon": 28.3372175,
+  "tags": {
+    "access": "yes",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1230815575,
+  "lat": 57.8220832,
+  "lon": 28.3345469,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1230904400,
+  "lat": 57.8244830,
+  "lon": 28.3371759,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1230904464,
+  "lat": 57.8242970,
+  "lon": 28.3390842,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1238460287,
+  "lat": 57.8231708,
+  "lon": 28.3394945,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1238460334,
+  "lat": 57.8225106,
+  "lon": 28.3398913,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1238460425,
+  "lat": 57.8225016,
+  "lon": 28.3400769,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1238460483,
+  "lat": 57.8233601,
+  "lon": 28.3405572,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1248155231,
+  "lat": 57.8251747,
+  "lon": 28.3333995,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1248177267,
+  "lat": 57.8266618,
+  "lon": 28.3310129,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1406737264,
+  "lat": 57.8216031,
+  "lon": 28.3144693,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126049,
+  "lat": 57.8186255,
+  "lon": 28.3439103,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126056,
+  "lat": 57.8189127,
+  "lon": 28.3423863,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126057,
+  "lat": 57.8189448,
+  "lon": 28.3396051,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126068,
+  "lat": 57.8194244,
+  "lon": 28.3424923,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126077,
+  "lat": 57.8196791,
+  "lon": 28.3424852,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126100,
+  "lat": 57.8202379,
+  "lon": 28.3387051,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126101,
+  "lat": 57.8202416,
+  "lon": 28.3420387,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126109,
+  "lat": 57.8206302,
+  "lon": 28.3403017,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1425126110,
+  "lat": 57.8207097,
+  "lon": 28.3430912,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1433488741,
+  "lat": 57.8162919,
+  "lon": 28.3440920,
+  "tags": {
+    "barrier": "gate",
+    "motor_vehicle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1433488792,
+  "lat": 57.8166109,
+  "lon": 28.3421134,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1433488928,
+  "lat": 57.8177663,
+  "lon": 28.3444897,
+  "tags": {
+    "barrier": "gate",
+    "motor_vehicle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1433488986,
+  "lat": 57.8181297,
+  "lon": 28.3440528,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1468144412,
+  "lat": 57.8272821,
+  "lon": 28.3399959,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 1532975686,
+  "lat": 57.8185811,
+  "lon": 28.3141399,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1688838149,
+  "lat": 57.8290645,
+  "lon": 28.3226106,
+  "tags": {
+    "access": "private",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 2647560089,
+  "lat": 57.8241839,
+  "lon": 28.3271676,
+  "tags": {
+    "access": "no",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 2661005814,
+  "lat": 57.8255616,
+  "lon": 28.3180368,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 2661005817,
+  "lat": 57.8256664,
+  "lon": 28.3174543,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 2968530832,
+  "lat": 57.8270728,
+  "lon": 28.3381219,
+  "tags": {
+    "barrier": "lift_gate",
+    "motor_vehicle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2968532541,
+  "lat": 57.8261217,
+  "lon": 28.3375669,
+  "tags": {
+    "barrier": "gate",
+    "motor_vehicle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2968535991,
+  "lat": 57.8272420,
+  "lon": 28.3347795,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 2968551628,
+  "lat": 57.8268560,
+  "lon": 28.3311839,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 2973603784,
+  "lat": 57.8279497,
+  "lon": 28.3304790,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3098191608,
+  "lat": 57.8190233,
+  "lon": 28.3211544,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes",
+    "material": "metal"
+  }
+},
+{
+  "type": "node",
+  "id": 3098191620,
+  "lat": 57.8196614,
+  "lon": 28.3212292,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3135743866,
+  "lat": 57.8151762,
+  "lon": 28.3159440,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3179624609,
+  "lat": 57.8145232,
+  "lon": 28.3165403,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3182559848,
+  "lat": 57.8256388,
+  "lon": 28.3391772,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3182559851,
+  "lat": 57.8252758,
+  "lon": 28.3404054,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3188114926,
+  "lat": 57.8156576,
+  "lon": 28.3191290,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3188120782,
+  "lat": 57.8161040,
+  "lon": 28.3179869,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3188131039,
+  "lat": 57.8151682,
+  "lon": 28.3240182,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3188131060,
+  "lat": 57.8163306,
+  "lon": 28.3236873,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3188139088,
+  "lat": 57.8170072,
+  "lon": 28.3235342,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3188176022,
+  "lat": 57.8141937,
+  "lon": 28.3342107,
+  "tags": {
+    "barrier": "lift_gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3188176023,
+  "lat": 57.8141935,
+  "lon": 28.3340893,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3198761761,
+  "lat": 57.8146518,
+  "lon": 28.3265762,
+  "tags": {
+    "barrier": "gate",
+    "bicycle": "yes",
+    "foot": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3307515259,
+  "lat": 57.8178280,
+  "lon": 28.3438257,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3506582020,
+  "lat": 57.8189692,
+  "lon": 28.3428622,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3512890730,
+  "lat": 57.8188383,
+  "lon": 28.3339830,
+  "tags": {
+    "access": "yes",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3512890731,
+  "lat": 57.8188597,
+  "lon": 28.3340643,
+  "tags": {
+    "description": "Университетский сквер. Заложен в честь 70-ти летия Победы в Великой Отечественной войне. 9.05.2015",
+    "historic": "memorial",
+    "memorial": "stone"
+  }
+},
+{
+  "type": "node",
+  "id": 3662171876,
+  "lat": 57.8198685,
+  "lon": 28.3219110,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3662171881,
+  "lat": 57.8199781,
+  "lon": 28.3229866,
+  "tags": {
+    "access": "private",
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3662177570,
+  "lat": 57.8215456,
+  "lon": 28.3221357,
+  "tags": {
+    "access": "no",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3678689763,
+  "lat": 57.8200452,
+  "lon": 28.3374284,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3719155933,
+  "lat": 57.8174814,
+  "lon": 28.3133279,
+  "tags": {
+    "access": "private",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 4323495983,
+  "lat": 57.8165425,
+  "lon": 28.3256209,
+  "tags": {
+    "addr:city": "Псков",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "Гостиница \"Интурист\""
+  }
+},
+{
+  "type": "node",
+  "id": 4365148485,
+  "lat": 57.8188307,
+  "lon": 28.3152276,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 4808553360,
+  "lat": 57.8210151,
+  "lon": 28.3294299,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war",
+    "name": "Памятный знак в честь Ледового побоища",
+    "tourism": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 6505546408,
+  "lat": 57.8146797,
+  "lon": 28.3323140,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 6728566627,
+  "lat": 57.8266034,
+  "lon": 28.3392634,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 6782944164,
+  "lat": 57.8292152,
+  "lon": 28.3318646,
+  "tags": {
+    "access": "private",
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 6803941952,
+  "lat": 57.8183671,
+  "lon": 28.3332000,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Первым жертвам фашистской оккупации Пскова в 1941 г."
+  }
+},
+{
+  "type": "node",
+  "id": 8825322422,
+  "lat": 57.8246079,
+  "lon": 28.3325169,
+  "tags": {
+    "historic": "memorial",
+    "name": "Столб электропередач начала XX века"
+  }
+},
+{
+  "type": "node",
+  "id": 10121215022,
+  "lat": 57.8179107,
+  "lon": 28.3348013,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Силину А.С."
+  }
+},
+{
+  "type": "node",
+  "id": 10567921356,
+  "lat": 57.8259261,
+  "lon": 28.3297485,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 10731381605,
+  "lat": 57.8158973,
+  "lon": 28.3418252,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Памятник В.И. Ленину"
+  }
+},
+{
+  "type": "node",
+  "id": 12260512364,
+  "lat": 57.8173006,
+  "lon": 28.3247505,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 12260512365,
+  "lat": 57.8177144,
+  "lon": 28.3247802,
+  "tags": {
+    "barrier": "gate"
+  }
+},
+{
+  "type": "node",
+  "id": 12260578176,
+  "lat": 57.8248213,
+  "lon": 28.3161557,
+  "tags": {
+    "barrier": "lift_gate"
+  }
+},
+{
+  "type": "node",
+  "id": 13412966505,
+  "lat": 57.8264335,
+  "lon": 28.3377585,
+  "tags": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "blue_plaque",
+    "name": "Ю.А.Ширяев"
+  }
+},
+{
+  "type": "way",
+  "id": 65987052,
+  "bounds": {
+    "minlat": 57.8189063,
+    "minlon": 28.3243888,
+    "maxlat": 57.8190423,
+    "maxlon": 28.3245944
+  },
+  "nodes": [
+    801834643,
+    801834645,
+    7766291688,
+    801834646,
+    801834648,
+    7766291687,
+    801834643
+  ],
+  "geometry": [
+    { "lat": 57.8190423, "lon": 28.3243931 },
+    { "lat": 57.8189081, "lon": 28.3243888 },
+    { "lat": 57.8189068, "lon": 28.3245364 },
+    { "lat": 57.8189063, "lon": 28.3245902 },
+    { "lat": 57.8190405, "lon": 28.3245944 },
+    { "lat": 57.8190409, "lon": 28.3245406 },
+    { "lat": 57.8190423, "lon": 28.3243931 }
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "russian_orthodox",
+    "historic": "yes",
+    "man_made": "tower",
+    "name": "Звонница Успенской церкви",
+    "religion": "christian",
+    "shield": "Памятник архитектуры XVI века. Звонница восстановлена в 2008 году на пожертвования сотрудников псковской милиции и меценатов Г. Пскова",
+    "tourism": "attraction",
+    "tower:type": "bell_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 66789560,
+  "bounds": {
+    "minlat": 57.8256064,
+    "minlon": 28.3260028,
+    "maxlat": 57.8257153,
+    "maxlon": 28.3262081
+  },
+  "nodes": [
+    807339593,
+    3138440188,
+    807339611,
+    3138440183,
+    807339555,
+    3138440181,
+    807339535,
+    3138440178,
+    3138440179,
+    3138440180,
+    807339579,
+    3138440182,
+    3138440184,
+    3138440187,
+    807339529,
+    807339575,
+    807339619,
+    3138440189,
+    807339593
+  ],
+  "geometry": [
+    { "lat": 57.8257046, "lon": 28.3261667 },
+    { "lat": 57.8256914, "lon": 28.3261905 },
+    { "lat": 57.8256748, "lon": 28.3262049 },
+    { "lat": 57.8256566, "lon": 28.3262081 },
+    { "lat": 57.8256388, "lon": 28.3261999 },
+    { "lat": 57.8256234, "lon": 28.3261812 },
+    { "lat": 57.8256122, "lon": 28.3261540 },
+    { "lat": 57.8256064, "lon": 28.3261214 },
+    { "lat": 57.8256067, "lon": 28.3260870 },
+    { "lat": 57.8256129, "lon": 28.3260547 },
+    { "lat": 57.8256245, "lon": 28.3260281 },
+    { "lat": 57.8256401, "lon": 28.3260101 },
+    { "lat": 57.8256580, "lon": 28.3260028 },
+    { "lat": 57.8256762, "lon": 28.3260070 },
+    { "lat": 57.8256926, "lon": 28.3260222 },
+    { "lat": 57.8257116, "lon": 28.3260682 },
+    { "lat": 57.8257153, "lon": 28.3261019 },
+    { "lat": 57.8257129, "lon": 28.3261360 },
+    { "lat": 57.8257046, "lon": 28.3261667 }
+  ],
+  "tags": {
+    "alt_name": "Воскресенская башня",
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Высокая башня",
+    "roof:shape": "pyramidal",
+    "tourism": "attraction",
+    "tower:type": "defensive"
+  }
+},
+{
+  "type": "way",
+  "id": 67325758,
+  "bounds": {
+    "minlat": 57.8269331,
+    "minlon": 28.3232325,
+    "maxlat": 57.8270861,
+    "maxlon": 28.3235207
+  },
+  "nodes": [
+    813135203,
+    813135260,
+    813135135,
+    813135178,
+    813135229,
+    813135249,
+    813135146,
+    813135172,
+    813135186,
+    813135200,
+    813135236,
+    813135132,
+    813135165,
+    813135127,
+    813135163,
+    813135208,
+    813135244,
+    813135268,
+    813135203
+  ],
+  "geometry": [
+    { "lat": 57.8270861, "lon": 28.3233921 },
+    { "lat": 57.8270792, "lon": 28.3234449 },
+    { "lat": 57.8270577, "lon": 28.3234891 },
+    { "lat": 57.8270534, "lon": 28.3234942 },
+    { "lat": 57.8270363, "lon": 28.3235145 },
+    { "lat": 57.8269987, "lon": 28.3235207 },
+    { "lat": 57.8269744, "lon": 28.3235050 },
+    { "lat": 57.8269590, "lon": 28.3234922 },
+    { "lat": 57.8269494, "lon": 28.3234729 },
+    { "lat": 57.8269363, "lon": 28.3234270 },
+    { "lat": 57.8269331, "lon": 28.3233606 },
+    { "lat": 57.8269431, "lon": 28.3233078 },
+    { "lat": 57.8269613, "lon": 28.3232635 },
+    { "lat": 57.8269878, "lon": 28.3232365 },
+    { "lat": 57.8270179, "lon": 28.3232325 },
+    { "lat": 57.8270478, "lon": 28.3232454 },
+    { "lat": 57.8270696, "lon": 28.3232857 },
+    { "lat": 57.8270832, "lon": 28.3233312 },
+    { "lat": 57.8270861, "lon": 28.3233921 }
+  ],
+  "tags": {
+    "building": "yes",
+    "direction": "W",
+    "man_made": "tower",
+    "name": "Варлаамовская башня",
+    "roof:shape": "pyramidal",
+    "tourism": "viewpoint",
+    "tower:type": "defensive"
+  }
+},
+{
+  "type": "way",
+  "id": 96333724,
+  "bounds": {
+    "minlat": 57.8140397,
+    "minlon": 28.3311781,
+    "maxlat": 57.8141253,
+    "maxlon": 28.3313388
+  },
+  "nodes": [
+    1116497792,
+    1116497786,
+    1116497860,
+    1116497771,
+    1116497774,
+    1116497921,
+    1116497897,
+    1116497906,
+    1116497847,
+    1116497796,
+    1116497850,
+    1116497778,
+    1116497930,
+    1116497928,
+    1116497807,
+    1116497803,
+    1116497792
+  ],
+  "geometry": [
+    { "lat": 57.8140894, "lon": 28.3313388 },
+    { "lat": 57.8140734, "lon": 28.3313387 },
+    { "lat": 57.8140571, "lon": 28.3313244 },
+    { "lat": 57.8140453, "lon": 28.3313012 },
+    { "lat": 57.8140397, "lon": 28.3312714 },
+    { "lat": 57.8140410, "lon": 28.3312392 },
+    { "lat": 57.8140473, "lon": 28.3312108 },
+    { "lat": 57.8140599, "lon": 28.3311884 },
+    { "lat": 57.8140756, "lon": 28.3311781 },
+    { "lat": 57.8140920, "lon": 28.3311784 },
+    { "lat": 57.8141079, "lon": 28.3311925 },
+    { "lat": 57.8141191, "lon": 28.3312160 },
+    { "lat": 57.8141253, "lon": 28.3312455 },
+    { "lat": 57.8141242, "lon": 28.3312779 },
+    { "lat": 57.8141176, "lon": 28.3313061 },
+    { "lat": 57.8141050, "lon": 28.3313260 },
+    { "lat": 57.8140894, "lon": 28.3313388 }
+  ],
+  "tags": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Мстиславская башня",
+    "roof:shape": "pyramidal",
+    "tower:type": "defensive"
+  }
+},
+{
+  "type": "way",
+  "id": 725654310,
+  "bounds": {
+    "minlat": 57.8179725,
+    "minlon": 28.3332790,
+    "maxlat": 57.8180349,
+    "maxlon": 28.3333960
+  },
+  "nodes": [
+    6803941960,
+    6803941961,
+    6803941962,
+    6803941963,
+    6803941964,
+    6803941965,
+    6803941966,
+    6803941967,
+    6803941968,
+    6803941969,
+    6803941970,
+    6803941971,
+    6803941953,
+    6803941956,
+    6803941957,
+    6803941958,
+    6803941959,
+    6803941954,
+    6803941955,
+    6803941960
+  ],
+  "geometry": [
+    { "lat": 57.8179773, "lon": 28.3333063 },
+    { "lat": 57.8179733, "lon": 28.3333239 },
+    { "lat": 57.8179725, "lon": 28.3333429 },
+    { "lat": 57.8179751, "lon": 28.3333615 },
+    { "lat": 57.8179806, "lon": 28.3333775 },
+    { "lat": 57.8179886, "lon": 28.3333894 },
+    { "lat": 57.8179982, "lon": 28.3333958 },
+    { "lat": 57.8180084, "lon": 28.3333960 },
+    { "lat": 57.8180181, "lon": 28.3333901 },
+    { "lat": 57.8180263, "lon": 28.3333787 },
+    { "lat": 57.8180321, "lon": 28.3333630 },
+    { "lat": 57.8180349, "lon": 28.3333446 },
+    { "lat": 57.8180344, "lon": 28.3333255 },
+    { "lat": 57.8180304, "lon": 28.3333069 },
+    { "lat": 57.8180233, "lon": 28.3332919 },
+    { "lat": 57.8180140, "lon": 28.3332822 },
+    { "lat": 57.8180035, "lon": 28.3332790 },
+    { "lat": 57.8179930, "lon": 28.3332826 },
+    { "lat": 57.8179841, "lon": 28.3332920 },
+    { "lat": 57.8179773, "lon": 28.3333063 }
+  ],
+  "tags": {
+    "building:part": "yes",
+    "description": "Колокольня",
+    "historic": "yes",
+    "man_made": "tower",
+    "roof:shape": "pyramidal",
+    "tourism": "attraction",
+    "tower:type": "bell_tower"
+  }
+}
+
+  ]
+}

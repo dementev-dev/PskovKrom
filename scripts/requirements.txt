@@ -1,0 +1,6 @@
+numpy
+scipy
+rasterio
+matplotlib
+pillow
+# web_export.py: пакетов сверх этих не нужно; упрощение и сжатие GLB — node/npx (@gltf-transform/cli@4, не pip)

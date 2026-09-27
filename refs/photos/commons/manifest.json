@@ -1,0 +1,422 @@
+[
+ {
+  "id": "zav_olga_chapel",
+  "title": "Часовня Святой Ольги. Вид на Кремль с Завеличья. Псков.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%A7%D0%B0%D1%81%D0%BE%D0%B2%D0%BD%D1%8F_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B9_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8._%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D1%81_%D0%97%D0%B0%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D1%8C%D1%8F._%D0%9F%D1%81%D0%BA%D0%BE%D0%B2.jpg",
+  "file": "refs/photos/commons/zav_olga_chapel.jpg",
+  "author": "SaninAl",
+  "license": "CC BY-SA 4.0",
+  "date": "2014:05:07 10:56:02",
+  "camera_latlon": [
+   57.81991333,
+   28.32491167
+  ],
+  "camera_xy": [
+   -244.7,
+   -240.2
+  ],
+  "target": [
+   0.0,
+   0.0,
+   30.0
+  ],
+  "eye_z": null,
+  "focal35": 14,
+  "size": [
+   1600,
+   1056
+  ]
+ },
+ {
+  "id": "zav_olga_chapel_2",
+  "title": "Троицкий собор и кремль от Ольгинской часовни - panoramio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%B8_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D0%BE%D1%82_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_%D1%87%D0%B0%D1%81%D0%BE%D0%B2%D0%BD%D0%B8_-_panoramio.jpg",
+  "file": "refs/photos/commons/zav_olga_chapel_2.jpg",
+  "author": "Nicholas Nemtsev",
+  "license": "CC BY 3.0",
+  "date": "2008:02:10 17:48:10",
+  "camera_latlon": [
+   57.820029,
+   28.325248
+  ],
+  "camera_xy": [
+   -231.8,
+   -220.2
+  ],
+  "target": [
+   0.0,
+   0.0,
+   30.0
+  ],
+  "eye_z": null,
+  "focal35": 52,
+  "size": [
+   1600,
+   2406
+  ]
+ },
+ {
+  "id": "zav_view4",
+  "title": "Ансамбль Псковского Кремля. Вид 4.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8F._%D0%92%D0%B8%D0%B4_4.jpg",
+  "file": "refs/photos/commons/zav_view4.jpg",
+  "author": "Eirene Andrea Craske",
+  "license": "CC BY-SA 4.0",
+  "date": "2021:06:26 20:30:15",
+  "camera_latlon": [
+   57.820047,
+   28.325006
+  ],
+  "camera_xy": [
+   -229.8,
+   -234.5
+  ],
+  "target": [
+   0.0,
+   0.0,
+   30.0
+  ],
+  "eye_z": null,
+  "focal35": 42,
+  "size": [
+   1600,
+   900
+  ]
+ },
+ {
+  "id": "zav_river_2014",
+  "title": "Вид на Псковский Кром с реки Великой, 2014..jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%9A%D1%80%D0%BE%D0%BC_%D1%81_%D1%80%D0%B5%D0%BA%D0%B8_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B9,_2014..jpg",
+  "file": "refs/photos/commons/zav_river_2014.jpg",
+  "author": "Aleksander Kaasik",
+  "license": "CC BY-SA 4.0",
+  "date": "2014:07:25 19:52:19",
+  "camera_latlon": [
+   57.82076944,
+   28.32494722
+  ],
+  "camera_xy": [
+   -149.3,
+   -238.0
+  ],
+  "target": [
+   -20.0,
+   10.0,
+   25.0
+  ],
+  "eye_z": -11.4,
+  "focal35": 56,
+  "size": [
+   1600,
+   1067
+  ]
+ },
+ {
+  "id": "zav_north",
+  "title": "Кром с Завеличья - panoramio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D0%BE%D0%BC_%D1%81_%D0%97%D0%B0%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D1%8C%D1%8F_-_panoramio.jpg",
+  "file": "refs/photos/commons/zav_north.jpg",
+  "author": "Александр Спиридонов",
+  "license": "CC BY 3.0",
+  "date": "2013:08:02 13:15:56",
+  "camera_latlon": [
+   57.825286,
+   28.319364
+  ],
+  "camera_xy": [
+   353.7,
+   -569.8
+  ],
+  "target": [
+   290.0,
+   -125.0,
+   10.0
+  ],
+  "eye_z": null,
+  "focal35": 37,
+  "size": [
+   1600,
+   1067
+  ]
+ },
+ {
+  "id": "zav_north_mouth",
+  "title": "Плоская башня и Кутекрома - panoramio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F_%D0%B8_%D0%9A%D1%83%D1%82%D0%B5%D0%BA%D1%80%D0%BE%D0%BC%D0%B0_-_panoramio.jpg",
+  "file": "refs/photos/commons/zav_north_mouth.jpg",
+  "author": "Александр Спиридонов",
+  "license": "CC BY 3.0",
+  "date": "2013:08:02 13:20:37",
+  "camera_latlon": [
+   57.825234,
+   28.319879
+  ],
+  "camera_xy": [
+   347.9,
+   -539.2
+  ],
+  "target": [
+   288.0,
+   -113.0,
+   8.0
+  ],
+  "eye_z": null,
+  "focal35": 100,
+  "size": [
+   1600,
+   1067
+  ]
+ },
+ {
+  "id": "olginsky_1",
+  "title": "Троицкий собор с Ольгинского моста - panoramio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D1%81_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%81%D1%82%D0%B0_-_panoramio.jpg",
+  "file": "refs/photos/commons/olginsky_1.jpg",
+  "author": "Nicholas Nemtsev",
+  "license": "CC BY 3.0",
+  "date": "2008:02:02 16:39:20",
+  "camera_latlon": [
+   57.818909,
+   28.327346
+  ],
+  "camera_xy": [
+   -356.5,
+   -95.5
+  ],
+  "target": [
+   0.0,
+   0.0,
+   30.0
+  ],
+  "eye_z": -4.0,
+  "focal35": 52,
+  "size": [
+   1600,
+   1064
+  ]
+ },
+ {
+  "id": "olginsky_2016",
+  "title": "Kremlin of Pskov (2016).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kremlin_of_Pskov_(2016).jpg",
+  "file": "refs/photos/commons/olginsky_2016.jpg",
+  "author": "Ivo Kruusamägi",
+  "license": "CC BY-SA 4.0",
+  "date": "2016:08:29 06:10:24",
+  "camera_latlon": [
+   57.818949,
+   28.327384
+  ],
+  "camera_xy": [
+   -352.1,
+   -93.2
+  ],
+  "target": [
+   0.0,
+   0.0,
+   30.0
+  ],
+  "eye_z": -4.0,
+  "focal35": 27,
+  "size": [
+   1600,
+   1064
+  ]
+ },
+ {
+  "id": "pskova_bank",
+  "title": "Стены и башни Псковского кремля на берегу реки Псковы.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%82%D0%B5%D0%BD%D1%8B_%D0%B8_%D0%B1%D0%B0%D1%88%D0%BD%D0%B8_%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8F_%D0%BD%D0%B0_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D1%83_%D1%80%D0%B5%D0%BA%D0%B8_%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D1%8B.jpg",
+  "file": "refs/photos/commons/pskova_bank.jpg",
+  "author": "Sachkv",
+  "license": "CC BY-SA 4.0",
+  "date": "2015:08:24 11:29:30",
+  "camera_latlon": [
+   57.824698,
+   28.327706
+  ],
+  "camera_xy": [
+   288.2,
+   -74.1
+  ],
+  "target": [
+   365.0,
+   -163.0,
+   5.0
+  ],
+  "eye_z": null,
+  "focal35": 52,
+  "size": [
+   1600,
+   1068
+  ]
+ },
+ {
+  "id": "pskova_sunrise",
+  "title": "Псковский Кремль со стороны реки Псковы на восходе 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D1%81%D0%BE_%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D1%8B_%D1%80%D0%B5%D0%BA%D0%B8_%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D1%8B_%D0%BD%D0%B0_%D0%B2%D0%BE%D1%81%D1%85%D0%BE%D0%B4%D0%B5_01.jpg",
+  "file": "refs/photos/commons/pskova_sunrise.jpg",
+  "author": "Sachkv",
+  "license": "CC BY-SA 4.0",
+  "date": "2015:08:23 07:40:23",
+  "camera_latlon": [
+   57.824949,
+   28.328581
+  ],
+  "camera_xy": [
+   316.2,
+   -22.1
+  ],
+  "target": [
+   170.0,
+   -30.0,
+   5.0
+  ],
+  "eye_z": null,
+  "focal35": 18,
+  "size": [
+   1600,
+   1079
+  ]
+ },
+ {
+  "id": "aerial_velikaya",
+  "title": "Pskov asv07-2018 Kremlin aerial5.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pskov_asv07-2018_Kremlin_aerial5.jpg",
+  "file": "refs/photos/commons/aerial_velikaya.jpg",
+  "author": "A.Savin",
+  "license": "FAL",
+  "date": "2018:07:23 11:02:32",
+  "camera_latlon": [
+   57.82080556,
+   28.32441667
+  ],
+  "camera_xy": [
+   -145.3,
+   -269.6
+  ],
+  "target": [
+   0.0,
+   0.0,
+   30.0
+  ],
+  "eye_z": 100.0,
+  "focal35": 24,
+  "size": [
+   1600,
+   900
+  ]
+ },
+ {
+  "id": "belfry_west",
+  "title": "Pskov KremlinBT1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pskov_KremlinBT1.jpg",
+  "file": "refs/photos/commons/belfry_west.jpg",
+  "author": "Ludvig14",
+  "license": "CC BY-SA 3.0",
+  "date": null,
+  "camera_latlon": [
+   57.82177222,
+   28.32874167
+  ],
+  "camera_xy": [
+   -37.6,
+   -12.6
+  ],
+  "target": [
+   -35.5,
+   50.7,
+   22.0
+  ],
+  "eye_z": null,
+  "focal35": 27,
+  "size": [
+   1600,
+   2225
+  ]
+ },
+ {
+  "id": "belfry_yard",
+  "title": "Колокольня - panoramio (26).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%8F_-_panoramio_(26).jpg",
+  "file": "refs/photos/commons/belfry_yard.jpg",
+  "author": "Александр Спиридонов",
+  "license": "CC BY 3.0",
+  "date": "2013:08:01 20:06:52",
+  "camera_latlon": [
+   57.821701,
+   28.328655
+  ],
+  "camera_xy": [
+   -45.6,
+   -17.7
+  ],
+  "target": [
+   -35.5,
+   50.7,
+   22.0
+  ],
+  "eye_z": null,
+  "focal35": 28,
+  "size": [
+   1600,
+   1067
+  ]
+ },
+ {
+  "id": "belfry_pskova",
+  "title": "Колокольня и собор - panoramio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%8F_%D0%B8_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_-_panoramio.jpg",
+  "file": "refs/photos/commons/belfry_pskova.jpg",
+  "author": "SheriFF",
+  "license": "CC BY-SA 3.0",
+  "date": "2009:07:15 09:15:44",
+  "camera_latlon": [
+   57.821698,
+   28.332367
+  ],
+  "camera_xy": [
+   -45.9,
+   202.9
+  ],
+  "target": [
+   -20.0,
+   25.0,
+   28.0
+  ],
+  "eye_z": null,
+  "focal35": 47,
+  "size": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "id": "kutekroma_yard",
+  "title": "Pskov Kremlin KutekromaTower1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pskov_Kremlin_KutekromaTower1.jpg",
+  "file": "refs/photos/commons/kutekroma_yard.jpg",
+  "author": "Ludvig14",
+  "license": "CC BY-SA 3.0",
+  "date": null,
+  "camera_latlon": [
+   57.82347222,
+   28.32767222
+  ],
+  "camera_xy": [
+   151.7,
+   -76.1
+  ],
+  "target": [
+   235.0,
+   -120.5,
+   8.0
+  ],
+  "eye_z": null,
+  "focal35": null,
+  "size": [
+   1600,
+   1388
+  ]
+ }
+]
