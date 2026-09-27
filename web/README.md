@@ -36,20 +36,23 @@ python -m http.server 8080
 - Сборка — ≈20 МБ двоичных файлов; в истории main им не место (`build/` и так не в git).
 
 Если основной репозиторий должен остаться закрытым (Pages для закрытых — только на платном тарифе), та же ветка
-кладётся в отдельный открытый репозиторий только для сайта: меняется лишь `origin` у папки `build/site`.
+кладётся в отдельный открытый репозиторий только для сайта: меняется лишь `origin` у папки `build/gh-pages`.
+
+**Опубликовано 2026-09-27:** https://dementev-dev.github.io/PskovKrom/ — ветка `gh-pages` репозитория
+`dementev-dev/PskovKrom`, worktree `build/gh-pages` (в ней `.gitattributes` = `* -text`, LFS не действует, есть `.nojekyll`).
 
 Один раз (git ≥ 2.42):
 
 ```
-git worktree add --orphan -b gh-pages build/site
+git worktree add --orphan -b gh-pages build/gh-pages
 ```
 
 Каждая выкладка (PowerShell, из корня репозитория):
 
 ```
 .venv\Scripts\python scripts\web_export.py
-robocopy build\web build\site /MIR /XD shots /XF .git     # зеркало сайта; .git — служебный файл worktree
-cd build\site
+robocopy build\web build\gh-pages /MIR /XF .git .gitattributes   # зеркало сайта; .git — служебный файл worktree
+cd build\gh-pages
 git lfs ls-files                                           # должно быть пусто: LFS в ветке сайта не нужен
 git add -A
 git commit -m "site: сборка <дата>"
