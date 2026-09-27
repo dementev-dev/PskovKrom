@@ -15,6 +15,7 @@
 - `ue_run` находит среди процессов проекта редактор (тот, у кого есть подсистемы редактора): команда уходит в него, даже когда рядом идёт рендер `UnrealEditor-Cmd -game`. Код возврата: 0 — скрипт отработал, 1 — ошибка в скрипте, 2 — редактор не найден.
 - Строки лога скрипта (`[имя] …`) `ue_run` печатает в консоль. Работа на тиках редактора (`heights_krom`, `shot_krom`, `budget_krom`, `render_krom`) кончается позже команды — её итог смотреть в `Krom/Saved/Logs/Krom.log`.
 - Через `-c` вызываются функции модулей (в таблице — «модуль»); остальные скрипты собирают сцену уже при импорте.
+- `D:/PskovKrom/scripts` в `-c` (здесь и в докстрингах) — путь основного клона. В другом клоне (например, `D:\PskovKrom-test` для D-045) ставить путь к его `scripts`: иначе его редактор импортирует модули основного, и их выходы (`REPO` считается от `__file__`) лягут в основной репозиторий.
 - Python редактора живёт между запусками: модули из `scripts/` кешируются, после правки — `importlib.reload(<m>)`.
 - Кириллица и знаки «→», «≈» в консоли Windows — с `PYTHONIOENCODING=utf-8` (bash: префикс команды; PowerShell: `$env:PYTHONIOENCODING = "utf-8"`). Без него офлайн-скрипты падают на `print`, `ue_run` заменяет такие знаки на «?».
 
@@ -24,7 +25,9 @@
 - API редактора — editor subsystems и `unreal.load_asset`: `EditorScriptingUtilities` в UE 5.8 deprecated (D-011).
 
 ## Первичная сборка (D-045)
-В свежем клоне есть `L_Krom` с Landscape и 64 прокси (`__ExternalActors__` в git) и все `refs/`. Мешей, материалов, `SEQ_Flyover` и `build/` нет. Шаги — по порядку, шаг готов, когда выполнен его критерий. «Первая» — шаг нужен при первой сборке и при правке его собственных входов, от рельефа он не зависит.
+В свежем клоне есть уровень `L_Krom` (в git — `L_Krom.umap`, `__ExternalActors__`, `__ExternalObjects__`) и все `refs/`. В уровне уже есть акторы: Landscape с 64 прокси, свет и акторы всех `Generated/*`, но их меши и материалы пустые — ассетов `Content/Krom/*` (кроме `Maps`), `SEQ_Flyover` и `build/` в git нет. Каждый скрипт заменяет свои акторы. После сборки `git status` показывает сотни изменений в `__External*__` и `L_Krom.umap` (акторы пересозданы): так и должно быть, в проверочном клоне их не коммитить. Шаги — по порядку, шаг готов, когда выполнен его критерий. «Первая» — шаг нужен при первой сборке и при правке его собственных входов, от рельефа он не зависит.
+
+Проверено 2026-09-27 на клоне с GitHub (коммит 549c32c, `D:\PskovKrom-test`): вся сборка — ≈35 мин, из них редактор — ≈25 (`heroes_krom` — 10). Время у шагов ниже — из этой проверки, ноутбук из AGENTS.md.
 
 1. **Окружение** (один раз):
 
@@ -36,18 +39,20 @@
    Blender — по AGENTS.md (или путь в переменной `BLENDER`). Для `web_export.py` нужен ещё node/npx.
    Готово: `.venv\Scripts\python -c "import rasterio"` без ошибки; `refs/dem/heightmap_L_Krom.png` открывается как картинка, а не как текстовый указатель LFS.
    Текстуры `refs/textures/` приходят из git; `textures_fetch`, `leaf_atlas`, `water_normals` запускать только при их правке.
+   Время: клон с LFS (≈1,6 ГБ) — 4 мин, venv и pip — 24 с.
+   Редактор (шаг 4) можно открыть сразу после этого шага: пока он стартует и компилирует шейдеры, идут шаги 2 и 3. `build/` ему нужен только с `heights_krom`.
 
-2. **Офлайн** (`.venv`), по порядку. Готово: код возврата 0 и выходной файл со свежим временем.
+2. **Офлайн** (`.venv`), по порядку. Готово: код возврата 0 и выходной файл со свежим временем. Все семь — ≈3 мин.
 
-   | Скрипт | Когда | Нужно до него | Выход |
-   |---|---|---|---|
-   | `terrain_krom` | каждая | — | `build/terrain/heightmap_L_Krom_rg.png`, `build/terrain/water_pools.json`, `refs/dem/*` |
-   | `horizon_mesh` | первая | terrain_krom (стык по heightmap) | `build/horizon/horizon.json`, `*.bin`, `T_HorizonMask.png` |
-   | `roads_mesh` | каждая | terrain_krom (heightmap) | `build/roads/roads.json` |
-   | `trees_points` | каждая | terrain_krom (рельеф и маски) | `build/trees/points.json` |
-   | `city_mesh` | каждая | terrain_krom (heightmap) | `build/city/city.json` |
-   | `cemetery_points` | каждая | trees_points | `build/cemetery/points.json` |
-   | `furniture_points` | первая | — (только OSM) | `build/furniture/points.json` |
+   | Скрипт | Когда | Нужно до него | Выход | Время |
+   |---|---|---|---|---|
+   | `terrain_krom` | каждая | — | `build/terrain/heightmap_L_Krom_rg.png`, `build/terrain/water_pools.json`, `refs/dem/*` (в свежем клоне переписываются байт в байт, `git status` чистый) | 51 с |
+   | `horizon_mesh` | первая | terrain_krom (стык по heightmap) | `build/horizon/horizon.json`, `*.bin`, `T_HorizonMask.png` | 11 с |
+   | `roads_mesh` | каждая | terrain_krom (heightmap) | `build/roads/roads.json` | 64 с |
+   | `trees_points` | каждая | terrain_krom (рельеф и маски) | `build/trees/points.json` | 27 с |
+   | `city_mesh` | каждая | terrain_krom (heightmap) | `build/city/city.json` | 10 с |
+   | `cemetery_points` | каждая | trees_points | `build/cemetery/points.json` | 7 с |
+   | `furniture_points` | первая | — (только OSM) | `build/furniture/points.json` | 11 с |
 
 3. **Blender**, после `terrain_krom`: `pskov_church` строит ограды храмов по heightmap. Каждый скрипт — отдельным запуском (bash):
 
@@ -56,31 +61,37 @@
          python scripts/bl_run.py scripts/blender/$s.py || echo "FAIL $s"; done
 
    Готово: ни одного `FAIL`; GLB героев лежат в `build/blender/` — `heroes_krom` импортирует всех героев плана и без любого из них остановится. Превью с камер фото строятся, только если в `build/` есть файлы восстановления камер (`views.json`, `solve.json`); выгрузке GLB они не нужны.
+   Время: все 18 — 1,5 мин (`tree` 20 с, `pskov_church` 15 с, остальные 3–5 с); выход — 71 GLB в `build/blender/` и 9 в `build/finpark/`.
 
-4. **Редактор.** Открыть `Krom\Krom.uproject`: `Content/Python/init_unreal.py` сам держит загруженным регион `LoadAll` (все 64 прокси Landscape). Дальше по порядку `python scripts/ue_run.py scripts/<x>.py`:
+4. **Редактор.** Открыть `Krom\Krom.uproject` (PowerShell: `Start-Process "<UE>\Engine\Binaries\Win64\UnrealEditor.exe" "<клон>\Krom\Krom.uproject"`): `Content/Python/init_unreal.py` сам держит загруженным регион `LoadAll` (все 64 прокси Landscape). Готов, когда `python scripts/ue_run.py -c "import unreal; print(unreal.Paths.project_dir())"` печатает папку `Krom` своего клона (`ue_run` выбирает редактор своего клона) и в `Krom.log` есть `[init_unreal] L_Krom: регион LoadAll загружен`. Первый запуск на машине, где основной проект уже открывался, — ≈3 мин (шейдеры в общем DDC); на чистой машине — до 10–20 мин.
+   Дальше по порядку `python scripts/ue_run.py scripts/<x>.py`, по одному:
 
-   | # | Скрипт | Когда | Почему здесь | Готово, когда в выводе |
-   |---|---|---|---|---|
-   | 1 | `level_krom` | первая | свет, небо, объём `LoadAll` | `[level_krom] /Game/Krom/Maps/L_Krom: …, saved` |
-   | 2 | `heights_krom` | каждая | высоты Landscape из `build/terrain`; все прокси — `is_spatially_loaded=False`. Landscape в уровне нет — раздел «Landscape» | `[heights_krom] done` в `Krom.log`; следующий шаг — после этой строки |
-   | 3 | `horizon_krom` | первая | `T_HorizonMask` нужна `landscape_krom` | `[horizon_krom] done` |
-   | 4 | `materials_krom` | первая | `M_Krom<Ключ>`; `T_BuildingPlanks_D` нужна `landscape_krom` (настилы) | `[materials_krom] материалов …` |
-   | 5 | `landscape_krom` | каждая | материал земли, вода; `T_Ground*_D` нужны `roads_krom` и `gabions_krom` | `[landscape_krom] done` |
-   | 6 | `blockout_krom` | каждая | `M_Blockout` и `MI_BO_*` — материалы для ключей цвета без `M_Krom<Ключ>` | `[blockout_krom] done` |
-   | 7 | `walls_krom` | каждая | убирает коробки стен blockout | `[walls_krom] done` |
-   | 8 | `heroes_krom` | каждая | убирает примитивы blockout своих зданий | `[heroes_krom] done` |
-   | 9 | `bridge_krom` | каждая | `M_KromConcrete`, `M_KromRailing` нужны `finpark_krom` | `[bridge_krom] done` |
-   | 10 | `gabions_krom` | каждая | после `heights_krom` и `landscape_krom` | `[gabions_krom] done` |
-   | 11 | `furniture_krom` | каждая | `SM_Furn_Bench`, `MI_KromLampGlow` нужны `finpark_krom` | `[furniture_krom] done` |
-   | 12 | `finpark_krom` | каждая | после мостов и малых форм | `[finpark_krom] done` |
-   | 13 | `trees_krom` | каждая | | `[trees_krom] done` |
-   | 14 | `city_krom` | каждая | | `[city_krom] done` |
-   | 15 | `roads_krom` | каждая | | `[roads_krom] done` |
-   | 16 | `cemetery_krom` | каждая | `MI_BO_Ruin` от blockout | `[cemetery_krom] done` |
-   | 17 | `landmarks_krom` | каждая | | `[landmarks_krom] done` |
-   | 18 | `flyover_krom` | первая | `SEQ_Flyover` для `render_krom` | `[flyover_krom] /Game/Krom/Cinematics/SEQ_Flyover: …` |
+   | # | Скрипт | Когда | Почему здесь | Готово, когда в выводе | Время |
+   |---|---|---|---|---|---|
+   | 1 | `level_krom` | первая | свет, небо, объём `LoadAll` | `[level_krom] /Game/Krom/Maps/L_Krom: …, saved` (в клоне — `already open, light rebuilt, saved`) | 2 с |
+   | 2 | `heights_krom` | каждая | высоты Landscape из `build/terrain`; все прокси — `is_spatially_loaded=False`. Landscape в уровне нет — раздел «Landscape» | `[heights_krom] done: 413 точек совпали` в `Krom.log`; следующий шаг — после этой строки. «До записи отличалось 413» у первого запуска после старта редактора — норма | 3 с + 15 с на тиках |
+   | 3 | `horizon_krom` | первая | `T_HorizonMask` нужна `landscape_krom` | `[horizon_krom] done` | 36 с |
+   | 4 | `materials_krom` | первая | `M_Krom<Ключ>`; `T_BuildingPlanks_D` нужна `landscape_krom` (настилы) | `[materials_krom] материалов …`; при первой сборке «слоты переназначены: нигде» — мешей ещё нет, стены и герои берут материалы сами | 23 с |
+   | 5 | `landscape_krom` | каждая | материал земли, вода; `T_Ground*_D` нужны `roads_krom` и `gabions_krom` | `[landscape_krom] done` | 11 с |
+   | 6 | `blockout_krom` | каждая | `M_Blockout` и `MI_BO_*` — материалы для ключей цвета без `M_Krom<Ключ>` | `[blockout_krom] done` | 13 с |
+   | 7 | `walls_krom` | каждая | убирает коробки стен blockout | `[walls_krom] done` | 20 с |
+   | 8 | `heroes_krom` | каждая | убирает примитивы blockout своих зданий | `[heroes_krom] done: 46 героев` | 10 мин |
+   | 9 | `bridge_krom` | каждая | `M_KromConcrete`, `M_KromRailing` нужны `finpark_krom` | `[bridge_krom] done` | 31 с |
+   | 10 | `gabions_krom` | каждая | после `heights_krom` и `landscape_krom` | `[gabions_krom] done` | 8 с |
+   | 11 | `furniture_krom` | каждая | `SM_Furn_Bench`, `MI_KromLampGlow` нужны `finpark_krom` | `[furniture_krom] done` | 15 с |
+   | 12 | `finpark_krom` | каждая | после мостов и малых форм | `[finpark_krom] done` | 41 с |
+   | 13 | `trees_krom` | каждая | | `[trees_krom] done` | 2 мин |
+   | 14 | `city_krom` | каждая | | `[city_krom] done` | 1,5 мин |
+   | 15 | `roads_krom` | каждая | | `[roads_krom] done` | 3,5 мин |
+   | 16 | `cemetery_krom` | каждая | `MI_BO_Ruin` от blockout | `[cemetery_krom] done` | 24 с |
+   | 17 | `landmarks_krom` | каждая | | `[landmarks_krom] done` | 36 с |
+   | 18 | `flyover_krom` | первая | `SEQ_Flyover` для `render_krom` | `[flyover_krom] /Game/Krom/Cinematics/SEQ_Flyover: …` | 4 с |
 
-5. **Проверка:** `view_krom.view('oblique')` → `media/renders/views/oblique.png`: земля и здания без «шашечки» материалов, без дыр в земле, стены и герои на местах.
+   `ue_run` ждёт конца скрипта без таймаута и печатает его строки разом в конце: `heroes_krom` молчит 10 мин. Агенту — таймаут команды не меньше 15 мин или фоновый запуск. Ход `heroes_krom` виден в `Krom.log` по строкам `Interchange start importing … build/blender/SM_*.glb`. Если клиент `ue_run` оборвался, скрипт в редакторе дорабатывает сам: ждать `[имя] done` в `Krom.log`, повторно не запускать — пока редактор занят, новые команды ждут.
+   `AssetCheck: Error: … программная ссылка на несохранённый пакет` в `Krom.log` при первом сохранении уровня (`blockout_krom`) — проверка ассетов при сохранении, не сбой: внешние акторы сохраняются следом.
+
+5. **Проверка.** Снимки (`-c`, путь к `scripts` своего клона — раздел «Запуск»): `view_krom.view('oblique')` → `media/renders/views/oblique.png`, `view_krom.view('zavelichye')`. Земля и здания без «шашечки» материалов, без дыр в земле, стены и герои на местах. В `Krom.log` нет `Failed to compile Material`, `LogPython: Error` и «нет … — сначала …».
+   Итог проверки 2026-09-27 (549c32c) — ориентир для счёта акторов по папкам Outliner: всего 326; `heroes_krom` 46; `city_krom` 60 клеток (960 зданий); `roads_krom` 62 клетки (306 424 треугольника); `trees_krom` 7761 в 6 HISM; `furniture_krom` 279 в 4 HISM; `cemetery_krom` 2975 в 8 HISM; `finpark_krom` 10 акторов, 25 инстансов; `landmarks_krom` 7; `walls_krom` 22; `blockout_krom` 10 — остаток после `walls_krom` и `heroes_krom`; Landscape и 64 прокси, `is_spatially_loaded` ни у одного. «Мимо Landscape» у `finpark_krom` 1 и у `trees_krom` 11 — как в основном проекте.
 6. По желанию: `cameras_krom` (ракурсы `CAM_*` и их снимки), `web_export.py` (веб-сцена, редактор не нужен).
 
 ## После правки рельефа
